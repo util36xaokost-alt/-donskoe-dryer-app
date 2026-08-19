@@ -24,6 +24,7 @@ jobs:
           unzip -q donskoe-dryer-project.zip -d project
           test -f project/settings.gradle
           test -f project/app/build.gradle
+          sed -i 's/android:drawable="#FFFFFF"/android:drawable="@android:color\/white"/' project/app/src/main/res/drawable/splash_background.xml
 
       - name: Set up Java 17
         uses: actions/setup-java@v4
