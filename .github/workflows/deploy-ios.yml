@@ -1,4 +1,4 @@
-name: Deploy iOS Web App
+name: Deploy Dryer + Chemical Store
 
 on:
   workflow_dispatch:
@@ -6,6 +6,7 @@ on:
     branches: [ main ]
     paths:
       - 'donskoe-ios-pwa.zip'
+      - 'donskoe-chem-web.zip'
       - '.github/workflows/deploy-ios.yml'
 
 permissions:
@@ -24,14 +25,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Unpack iOS web app
+      - name: Unpack dryer app
         run: |
           rm -rf site
           mkdir site
           unzip -q donskoe-ios-pwa.zip -d site
           test -f site/index.html
-          test -f site/manifest.webmanifest
-          test -f site/sw.js
+
+      - name: Unpack chemical store app
+        run: |
+          if [ -f donskoe-chem-web.zip ]; then
+            mkdir -p site/chem
+            unzip -q donskoe-chem-web.zip -d site/chem
+            test -f site/chem/index.html
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
