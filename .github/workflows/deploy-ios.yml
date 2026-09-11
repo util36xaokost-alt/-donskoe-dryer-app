@@ -1,53 +1,35 @@
-name: Deploy Dryer + Chemical Store
-
+name: Deploy Donskoe production system
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - 'donskoe-ios-pwa.zip'
-      - 'donskoe-chem-web.zip'
       - '.github/workflows/deploy-ios.yml'
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: pages
   cancel-in-progress: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Unpack dryer app
+      - uses: actions/checkout@v4
+      - name: Unpack and verify one complete release
         run: |
-          rm -rf site
-          mkdir site
-          unzip -q donskoe-ios-pwa.zip -d site
-          test -f site/index.html
-
-      - name: Unpack chemical store app
-        run: |
-          if [ -f donskoe-chem-web.zip ]; then
-            mkdir -p site/chem
-            unzip -q donskoe-chem-web.zip -d site/chem
-            test -f site/chem/index.html
-          fi
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v5
+          test -f donskoe-ios-pwa.zip
+          mkdir -p site
+          unzip -q -o donskoe-ios-pwa.zip -d site
+          python3 site/scripts/verify-release.py site
+          touch site/.nojekyll
+          # All three modules are inside this ZIP. Never overlay an older chem ZIP.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-
   deploy:
     environment:
       name: github-pages
@@ -55,6 +37,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy verified release
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
