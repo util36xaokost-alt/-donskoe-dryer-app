@@ -1,0 +1,206 @@
+name: Build Donskoe map test package
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/map-probe.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  build-map-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install image tools
+        run: python3 -m pip install --quiet pillow
+
+      - name: Build two-level test imagery around field Sady
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from PIL import Image
+          from io import BytesIO
+          import urllib.request, time, json, math, hashlib, shutil
+          from datetime import datetime, timezone
+
+          OUT = Path('map-assets-test')
+          BLOCKS = OUT / 'blocks'
+          shutil.rmtree(OUT, ignore_errors=True)
+          BLOCKS.mkdir(parents=True, exist_ok=True)
+
+          # Test zone: field "Сады" + ~150 m. Good for judging trees/forest belts.
+          RANGES = {
+              16: (39866, 39869, 21786, 21789),
+              17: (79732, 79739, 43572, 43578),
+          }
+
+          SOURCES = {
+              'eeko': {
+                  'name': 'НСПД / Росреестр · ЕЭКО ортофото',
+                  'template': 'https://nspd.gov.ru/cgk/map/39/tms/{z}/{x}/{y}.png',
+                  'referer': 'https://nspd.gov.ru/map?baseLayerId=36346',
+              },
+              'ortho2000': {
+                  'name': 'НСПД / Росреестр · Ортофотопланы 2000',
+                  'template': 'https://nspd.gov.ru/api/aeggis/v2/36344/wmts/{z}/{x}/{y}.png',
+                  'referer': 'https://nspd.gov.ru/map?baseLayerId=36344',
+              },
+          }
+
+          def tile_bounds(x0, x1, y0, y1, z):
+              n = 2 ** z
+              def lon(x): return x / n * 360.0 - 180.0
+              def lat(y): return math.degrees(math.atan(math.sinh(math.pi * (1 - 2 * y / n))))
+              return {
+                  'minLon': lon(x0), 'maxLon': lon(x1 + 1),
+                  'minLat': lat(y1 + 1), 'maxLat': lat(y0),
+              }
+
+          def fetch_tile(src, z, x, y):
+              url = src['template'].format(z=z, x=x, y=y)
+              last = ''
+              for attempt in range(2):
+                  try:
+                      req = urllib.request.Request(url, headers={
+                          'User-Agent': 'Mozilla/5.0 DonskoeMapTest/1.0',
+                          'Referer': src['referer'],
+                          'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+                      })
+                      with urllib.request.urlopen(req, timeout=7) as r:
+                          raw = r.read()
+                          ctype = r.headers.get('Content-Type', '')
+                      if len(raw) < 500 or ('image/' not in ctype.lower() and not raw.startswith((b'\x89PNG', b'\xff\xd8\xff'))):
+                          raise RuntimeError(f'not image: {ctype}, {len(raw)} bytes')
+                      im = Image.open(BytesIO(raw)).convert('RGB')
+                      if im.size != (256, 256):
+                          im = im.resize((256, 256))
+                      return (x, y, im, None)
+                  except Exception as e:
+                      last = f'{type(e).__name__}: {e}'
+                      if attempt == 0:
+                          time.sleep(0.35)
+              return (x, y, None, last)
+
+          def build_mosaic(key, src, z):
+              x0, x1, y0, y1 = RANGES[z]
+              coords = [(x, y) for y in range(y0, y1 + 1) for x in range(x0, x1 + 1)]
+              got, errors = {}, []
+              with ThreadPoolExecutor(max_workers=12) as ex:
+                  futs = [ex.submit(fetch_tile, src, z, x, y) for x, y in coords]
+                  for fut in as_completed(futs):
+                      x, y, im, err = fut.result()
+                      if im is not None:
+                          got[(x, y)] = im
+                      else:
+                          errors.append({'z': z, 'x': x, 'y': y, 'error': err})
+
+              w, h = (x1 - x0 + 1) * 256, (y1 - y0 + 1) * 256
+              canvas = Image.new('RGB', (w, h), (225, 229, 226))
+              for y in range(y0, y1 + 1):
+                  for x in range(x0, x1 + 1):
+                      im = got.get((x, y))
+                      if im is not None:
+                          canvas.paste(im, ((x - x0) * 256, (y - y0) * 256))
+
+              file = BLOCKS / f'{key}-z{z}.webp'
+              canvas.save(file, 'WEBP', quality=88, method=5)
+              raw = file.read_bytes()
+              return {
+                  'z': z,
+                  'total': len(coords),
+                  'ok': len(got),
+                  'failed': len(errors),
+                  'errors': errors[:12],
+                  'file': str(file.relative_to(OUT)).replace('\\', '/'),
+                  'bytes': len(raw),
+                  'sha256': hashlib.sha256(raw).hexdigest(),
+                  'bounds': tile_bounds(x0, x1, y0, y1, z),
+              }
+
+          status = {
+              'createdAt': datetime.now(timezone.utc).isoformat(),
+              'zone': 'Сады',
+              'sources': {},
+          }
+
+          for key, src in SOURCES.items():
+              levels = [build_mosaic(key, src, 16), build_mosaic(key, src, 17)]
+              status['sources'][key] = {'name': src['name'], 'levels': levels}
+
+              total = sum(x['total'] for x in levels)
+              ok = sum(x['ok'] for x in levels)
+              coverage = ok / total if total else 0
+              blocks = []
+              for lv in levels:
+                  blocks.append({
+                      'id': f'{key}-z{lv["z"]}',
+                      'file': lv['file'],
+                      'tier': 'overview' if lv['z'] == 16 else 'detail',
+                      'bytes': lv['bytes'],
+                      'sha256': lv['sha256'],
+                      'bounds': lv['bounds'],
+                  })
+
+              manifest = {
+                  'schema': 1,
+                  'id': f'donskoe-map-test-{key}',
+                  'name': f'Карта Донского · тест Сады ({key})',
+                  'version': f'test-sady-{key}-2026-09-14',
+                  'createdAt': status['createdAt'],
+                  'source': src['name'],
+                  'resolutionM': 0.74,
+                  'detailViewWidthM': 5000,
+                  'sizeBytes': sum(b['bytes'] for b in blocks),
+                  'bounds': levels[0]['bounds'],
+                  'coverage': round(coverage, 4),
+                  'blocks': blocks,
+              }
+              (OUT / f'manifest-{key}.json').write_text(
+                  json.dumps(manifest, ensure_ascii=False, indent=2) + '\n',
+                  encoding='utf-8'
+              )
+
+          scores = {
+              key: sum(l['ok'] for l in value['levels']) / sum(l['total'] for l in value['levels'])
+              for key, value in status['sources'].items()
+          }
+          chosen = max(scores, key=scores.get)
+          status['scores'] = scores
+          status['chosen'] = chosen if scores[chosen] >= 0.75 else None
+
+          if status['chosen']:
+              shutil.copyfile(OUT / f'manifest-{chosen}.json', OUT / 'manifest.json')
+
+          (OUT / 'status.json').write_text(
+              json.dumps(status, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8'
+          )
+          (OUT / 'README.md').write_text(
+              '# Карта Донского — тест подложки\n\n'
+              'Тестовая зона: поле «Сады». Два уровня: z16 ≈ 1,49 м/пикс и z17 ≈ 0,74 м/пикс.\n\n'
+              f'Автовыбор источника: {status["chosen"] or "нет — покрытие источников недостаточно"}.\n'
+              'Диагностика: `status.json`.\n',
+              encoding='utf-8'
+          )
+          print(json.dumps(status, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Commit generated test package
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add map-assets-test
+          if git diff --cached --quiet; then
+            echo "No map changes"
+            exit 0
+          fi
+          git commit -m "Build Donskoe map test package"
+          git push
