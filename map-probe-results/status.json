@@ -1,0 +1,38 @@
+{
+  "probeVersion": 2,
+  "results": [
+    {
+      "name": "eeko-z16",
+      "url": "https://nspd.gov.ru/cgk/map/39/tms/16/39866/21786.png",
+      "http": "000",
+      "seconds": "3",
+      "bytes": "0",
+      "mime": ""
+    },
+    {
+      "name": "eeko-z17",
+      "url": "https://nspd.gov.ru/cgk/map/39/tms/17/79732/43572.png",
+      "http": "000",
+      "seconds": "3",
+      "bytes": "0",
+      "mime": ""
+    },
+    {
+      "name": "ortho2000-z16",
+      "url": "https://nspd.gov.ru/api/aeggis/v2/36344/wmts/16/39866/21786.png",
+      "http": "000",
+      "seconds": "3",
+      "bytes": "0",
+      "mime": ""
+    },
+    {
+      "name": "ortho2000-z17",
+      "url": "https://nspd.gov.ru/api/aeggis/v2/36344/wmts/17/79732/43572.png",
+      "http": "000",
+      "seconds": "3",
+      "bytes": "0",
+      "mime": ""
+    }
+  ],
+  "passCount": 0
+}
