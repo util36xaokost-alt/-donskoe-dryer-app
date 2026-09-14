@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "donskoe-map-test-sady",
+  "name": "Карта Донского · тест «Сады»",
+  "version": "test-sady-2026-09-14-v1",
+  "createdAt": "2026-09-14T05:29:42Z",
+  "source": "НСПД / Росреестр · ЕЭКО ортофото",
+  "resolutionM": 0.74,
+  "sizeBytes": 1281550,
+  "detailViewWidthM": 5000,
+  "bounds": {
+    "minLon": 38.990478515625,
+    "minLat": 51.51557978375592,
+    "maxLon": 39.012451171875,
+    "maxLat": 51.5292513551899
+  },
+  "blocks": [
+    {
+      "id": "overview-z16",
+      "file": "blocks/overview-z16.jpg",
+      "tier": "overview",
+      "bytes": 286580,
+      "sha256": "1bbfe2f5aa99766bab778661ef444bfaf60e7555c46be78338beabe825a5755f",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.51557978375592,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.5292513551899
+      }
+    },
+    {
+      "id": "detail-z17",
+      "file": "blocks/detail-z17.jpg",
+      "tier": "detail",
+      "bytes": 994970,
+      "sha256": "84a51653c7b732578f0f409cc248171bd3022fb33d5778e39502bcf3bf2ea854",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.51728895465185,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.5292513551899
+      }
+    }
+  ]
+}
