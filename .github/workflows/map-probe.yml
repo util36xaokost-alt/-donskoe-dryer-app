@@ -1,137 +1,117 @@
-name: Probe Donskoe map sources
+name: Publish Donskoe map package
 
 on:
   push:
     branches: [main]
     paths:
+      - 'donskoe-map-assets-upload.zip'
       - '.github/workflows/map-probe.yml'
 
 permissions:
   contents: write
 
+concurrency:
+  group: donskoe-map-publish
+  cancel-in-progress: false
+
 jobs:
-  probe-map:
+  publish-map:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Probe NSPD imagery with hard timeouts
+      - name: Detect upload package
+        id: detect
         shell: bash
         run: |
-          set -u
-          rm -rf map-probe-results
-          mkdir -p map-probe-results
+          if [ -f donskoe-map-assets-upload.zip ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "Map upload package found"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "No map upload package in this commit; nothing to publish"
+          fi
 
-          probe () {
-            NAME="$1"
-            URL="$2"
-            REF="$3"
-            OUT="map-probe-results/${NAME}.img"
-            HDR="map-probe-results/${NAME}.headers"
-            META="map-probe-results/${NAME}.meta"
-
-            echo "=== $NAME ==="
-            START=$(date +%s)
-            HTTP=$(curl -L -sS \
-              --connect-timeout 3 \
-              --max-time 7 \
-              --retry 0 \
-              -A "Mozilla/5.0 DonskoeMapProbe/2.0" \
-              -e "$REF" \
-              -D "$HDR" \
-              -o "$OUT" \
-              -w "%{http_code}" \
-              "$URL" 2>"map-probe-results/${NAME}.stderr" || true)
-            END=$(date +%s)
-            SECS=$((END-START))
-
-            BYTES=0
-            [ -f "$OUT" ] && BYTES=$(wc -c < "$OUT" | tr -d ' ')
-            TYPE=""
-            [ -f "$OUT" ] && TYPE=$(file -b --mime-type "$OUT" || true)
-
-            {
-              echo "name=$NAME"
-              echo "url=$URL"
-              echo "http=$HTTP"
-              echo "seconds=$SECS"
-              echo "bytes=$BYTES"
-              echo "mime=$TYPE"
-            } > "$META"
-
-            echo "HTTP=$HTTP time=${SECS}s bytes=$BYTES mime=$TYPE"
-
-            if [ "$HTTP" = "200" ] && [[ "$TYPE" == image/* ]] && [ "$BYTES" -gt 500 ]; then
-              EXT="bin"
-              case "$TYPE" in
-                image/png) EXT="png" ;;
-                image/jpeg) EXT="jpg" ;;
-                image/webp) EXT="webp" ;;
-              esac
-              mv "$OUT" "map-probe-results/${NAME}.${EXT}"
-              echo "PASS $NAME"
-              return 0
-            else
-              echo "FAIL $NAME"
-              return 1
-            fi
-          }
-
-          PASS=0
-
-          probe "eeko-z16" \
-            "https://nspd.gov.ru/cgk/map/39/tms/16/39866/21786.png" \
-            "https://nspd.gov.ru/map?baseLayerId=36346" && PASS=$((PASS+1)) || true
-
-          probe "eeko-z17" \
-            "https://nspd.gov.ru/cgk/map/39/tms/17/79732/43572.png" \
-            "https://nspd.gov.ru/map?baseLayerId=36346" && PASS=$((PASS+1)) || true
-
-          probe "ortho2000-z16" \
-            "https://nspd.gov.ru/api/aeggis/v2/36344/wmts/16/39866/21786.png" \
-            "https://nspd.gov.ru/map?baseLayerId=36344" && PASS=$((PASS+1)) || true
-
-          probe "ortho2000-z17" \
-            "https://nspd.gov.ru/api/aeggis/v2/36344/wmts/17/79732/43572.png" \
-            "https://nspd.gov.ru/map?baseLayerId=36344" && PASS=$((PASS+1)) || true
-
-          echo "$PASS" > map-probe-results/pass-count.txt
+      - name: Unpack and validate map package
+        if: steps.detect.outputs.exists == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf map-assets .map-assets-stage
+          mkdir -p .map-assets-stage
+          unzip -q donskoe-map-assets-upload.zip -d .map-assets-stage
 
           python3 - <<'PY'
           from pathlib import Path
-          import json
+          import hashlib, json
 
-          root = Path("map-probe-results")
-          results = []
-          for p in sorted(root.glob("*.meta")):
-              data = {}
-              for line in p.read_text(encoding="utf-8").splitlines():
-                  if "=" in line:
-                      k, v = line.split("=", 1)
-                      data[k] = v
-              results.append(data)
-          out = {
-              "probeVersion": 2,
-              "results": results,
-              "passCount": int((root/"pass-count.txt").read_text().strip() or "0")
-          }
-          (root/"status.json").write_text(
-              json.dumps(out, ensure_ascii=False, indent=2) + "\n",
-              encoding="utf-8"
+          root = Path('.map-assets-stage')
+          manifest_path = root / 'manifest.json'
+          if not manifest_path.is_file():
+              raise SystemExit('manifest.json is missing')
+
+          m = json.loads(manifest_path.read_text(encoding='utf-8-sig'))
+          if int(m.get('schema', 1)) != 1:
+              raise SystemExit('unsupported map schema')
+          if not m.get('id') or not m.get('version'):
+              raise SystemExit('map id/version missing')
+          blocks = m.get('blocks')
+          if not isinstance(blocks, list) or not blocks:
+              raise SystemExit('map blocks missing')
+
+          total = 0
+          for i, b in enumerate(blocks, 1):
+              rel = b.get('file')
+              if not rel:
+                  raise SystemExit(f'block {i}: file missing')
+              p = root / rel
+              if not p.is_file():
+                  raise SystemExit(f'block {i}: missing {rel}')
+              raw = p.read_bytes()
+              total += len(raw)
+              if b.get('bytes') and len(raw) != int(b['bytes']):
+                  raise SystemExit(f'block {i}: size mismatch')
+              if b.get('sha256'):
+                  got = hashlib.sha256(raw).hexdigest().lower()
+                  if got != str(b['sha256']).lower():
+                      raise SystemExit(f'block {i}: sha256 mismatch')
+              bounds = b.get('bounds') or {}
+              for key in ('minLon','minLat','maxLon','maxLat'):
+                  if not isinstance(bounds.get(key), (int, float)):
+                      raise SystemExit(f'block {i}: bad {key}')
+
+          manifest_path.write_text(
+              json.dumps(m, ensure_ascii=False, indent=2) + '\n',
+              encoding='utf-8'
           )
+          print(f"Map package OK: {m['id']} {m['version']} · {len(blocks)} blocks · {total/1024/1024:.1f} MiB")
           PY
 
-      - name: Commit probe results
+          mv .map-assets-stage map-assets
+
+      - name: Commit published package
+        if: steps.detect.outputs.exists == 'true'
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add map-probe-results
+
+          git add -A map-assets
+          git rm -f donskoe-map-assets-upload.zip
+
           if git diff --cached --quiet; then
-            echo "No probe result changes"
+            echo "No map changes"
             exit 0
           fi
-          git commit -m "Probe Donskoe map imagery sources"
+
+          git commit -m "Publish Donskoe map package"
           git push
+
+      - name: Show catalog URL
+        if: steps.detect.outputs.exists == 'true'
+        run: |
+          echo "Catalog URL: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/map-assets/manifest.json"
