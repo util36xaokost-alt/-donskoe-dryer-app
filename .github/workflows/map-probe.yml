@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'donskoe-map-assets-upload.zip'
+      - 'donskoe-map-assets-upload.parts.json'
       - '.github/workflows/map-probe.yml'
 
 permissions:
@@ -17,26 +18,80 @@ concurrency:
 jobs:
   publish-map:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Detect upload package
-        id: detect
+      - name: Prepare upload package
+        id: prep
         shell: bash
         run: |
+          set -euo pipefail
+
           if [ -f donskoe-map-assets-upload.zip ]; then
-            echo "exists=true" >> "$GITHUB_OUTPUT"
-            echo "Map upload package found"
-          else
-            echo "exists=false" >> "$GITHUB_OUTPUT"
-            echo "No map upload package in this commit; nothing to publish"
+            echo "mode=single" >> "$GITHUB_OUTPUT"
+            printf '%s\n' "donskoe-map-assets-upload.zip" > .map-upload-delete-list
+            exit 0
           fi
 
+          if [ ! -f donskoe-map-assets-upload.parts.json ]; then
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+            echo "No map upload package found"
+            exit 0
+          fi
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+
+          meta_path = Path("donskoe-map-assets-upload.parts.json")
+          meta = json.loads(meta_path.read_text(encoding="utf-8-sig"))
+          parts = meta.get("parts") or []
+          if not parts:
+              raise SystemExit("parts list is empty")
+
+          out = Path("donskoe-map-assets-upload.zip")
+          delete_names = ["donskoe-map-assets-upload.parts.json"]
+          h = hashlib.sha256()
+          total = 0
+
+          with out.open("wb") as dst:
+              for i, part in enumerate(parts, 1):
+                  name = part.get("name")
+                  if not name:
+                      raise SystemExit(f"part {i}: name missing")
+                  p = Path(name)
+                  if not p.is_file():
+                      raise SystemExit(f"part {i}: missing {name}")
+                  raw = p.read_bytes()
+                  if int(part.get("bytes", len(raw))) != len(raw):
+                      raise SystemExit(f"part {i}: size mismatch for {name}")
+                  got = hashlib.sha256(raw).hexdigest().lower()
+                  if part.get("sha256") and got != str(part["sha256"]).lower():
+                      raise SystemExit(f"part {i}: sha256 mismatch for {name}")
+                  dst.write(raw)
+                  h.update(raw)
+                  total += len(raw)
+                  delete_names.append(name)
+
+          if meta.get("originalBytes") and total != int(meta["originalBytes"]):
+              raise SystemExit("combined ZIP size mismatch")
+          if meta.get("originalSha256") and h.hexdigest().lower() != str(meta["originalSha256"]).lower():
+              raise SystemExit("combined ZIP sha256 mismatch")
+
+          Path(".map-upload-delete-list").write_text(
+              "\n".join(delete_names) + "\n",
+              encoding="utf-8"
+          )
+          print(f"Combined {len(parts)} parts -> {out} ({total/1024/1024:.1f} MiB)")
+          PY
+
+          echo "mode=parts" >> "$GITHUB_OUTPUT"
+
       - name: Unpack and validate map package
-        if: steps.detect.outputs.exists == 'true'
+        if: steps.prep.outputs.mode != 'none'
         shell: bash
         run: |
           set -euo pipefail
@@ -48,44 +103,44 @@ jobs:
           from pathlib import Path
           import hashlib, json
 
-          root = Path('.map-assets-stage')
-          manifest_path = root / 'manifest.json'
+          root = Path(".map-assets-stage")
+          manifest_path = root / "manifest.json"
           if not manifest_path.is_file():
-              raise SystemExit('manifest.json is missing')
+              raise SystemExit("manifest.json is missing")
 
-          m = json.loads(manifest_path.read_text(encoding='utf-8-sig'))
-          if int(m.get('schema', 1)) != 1:
-              raise SystemExit('unsupported map schema')
-          if not m.get('id') or not m.get('version'):
-              raise SystemExit('map id/version missing')
-          blocks = m.get('blocks')
+          m = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+          if int(m.get("schema", 1)) != 1:
+              raise SystemExit("unsupported map schema")
+          if not m.get("id") or not m.get("version"):
+              raise SystemExit("map id/version missing")
+
+          blocks = m.get("blocks")
           if not isinstance(blocks, list) or not blocks:
-              raise SystemExit('map blocks missing')
+              raise SystemExit("map blocks missing")
 
           total = 0
           for i, b in enumerate(blocks, 1):
-              rel = b.get('file')
+              rel = str(b.get("file") or "").replace("\\", "/")
               if not rel:
-                  raise SystemExit(f'block {i}: file missing')
+                  raise SystemExit(f"block {i}: file missing")
               p = root / rel
               if not p.is_file():
-                  raise SystemExit(f'block {i}: missing {rel}')
+                  raise SystemExit(f"block {i}: missing {rel}")
               raw = p.read_bytes()
               total += len(raw)
-              if b.get('bytes') and len(raw) != int(b['bytes']):
-                  raise SystemExit(f'block {i}: size mismatch')
-              if b.get('sha256'):
+
+              if b.get("bytes") and len(raw) != int(b["bytes"]):
+                  raise SystemExit(f"block {i}: size mismatch")
+              if b.get("sha256"):
                   got = hashlib.sha256(raw).hexdigest().lower()
-                  if got != str(b['sha256']).lower():
-                      raise SystemExit(f'block {i}: sha256 mismatch')
-              bounds = b.get('bounds') or {}
-              for key in ('minLon','minLat','maxLon','maxLat'):
-                  if not isinstance(bounds.get(key), (int, float)):
-                      raise SystemExit(f'block {i}: bad {key}')
+                  if got != str(b["sha256"]).lower():
+                      raise SystemExit(f"block {i}: sha256 mismatch")
+
+              b["file"] = rel
 
           manifest_path.write_text(
-              json.dumps(m, ensure_ascii=False, indent=2) + '\n',
-              encoding='utf-8'
+              json.dumps(m, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8"
           )
           print(f"Map package OK: {m['id']} {m['version']} · {len(blocks)} blocks · {total/1024/1024:.1f} MiB")
           PY
@@ -93,7 +148,7 @@ jobs:
           mv .map-assets-stage map-assets
 
       - name: Commit published package
-        if: steps.detect.outputs.exists == 'true'
+        if: steps.prep.outputs.mode != 'none'
         shell: bash
         run: |
           set -euo pipefail
@@ -101,17 +156,27 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A map-assets
-          git rm -f donskoe-map-assets-upload.zip
+
+          while IFS= read -r p; do
+            [ -z "$p" ] && continue
+            if git ls-files --error-unmatch "$p" >/dev/null 2>&1; then
+              git rm -f "$p"
+            else
+              rm -f "$p"
+            fi
+          done < .map-upload-delete-list
+
+          rm -f donskoe-map-assets-upload.zip .map-upload-delete-list
 
           if git diff --cached --quiet; then
             echo "No map changes"
             exit 0
           fi
 
-          git commit -m "Publish Donskoe map package"
+          git commit -m "Publish full Donskoe map package"
           git push
 
       - name: Show catalog URL
-        if: steps.detect.outputs.exists == 'true'
+        if: steps.prep.outputs.mode != 'none'
         run: |
           echo "Catalog URL: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/main/map-assets/manifest.json"
