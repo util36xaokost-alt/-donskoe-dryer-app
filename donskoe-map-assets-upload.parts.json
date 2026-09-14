@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "original": "donskoe-map-assets-upload.zip",
+  "originalBytes": 49425053,
+  "originalSha256": "3b2890ea010ce366929fd3966ddda1fa094a92cd222720925f8fb51c7f748b0b",
+  "chunkBytes": 20971520,
+  "parts": [
+    {
+      "name": "donskoe-map-assets-upload.part001",
+      "bytes": 20971520,
+      "sha256": "8276e9755596d6733f0f116ec068c8b934bf5758cf5d4142ebe92cb5b549c033"
+    },
+    {
+      "name": "donskoe-map-assets-upload.part002",
+      "bytes": 20971520,
+      "sha256": "858ff7a986ad1a076c29cf3a14b211d2edcbf537a5bbd343d30b6953fcf65320"
+    },
+    {
+      "name": "donskoe-map-assets-upload.part003",
+      "bytes": 7482013,
+      "sha256": "46e19a6f9be46ad09b87eb0ef8e435a560c2694f4f078f630b82a23e7ccb5e3a"
+    }
+  ]
+}
