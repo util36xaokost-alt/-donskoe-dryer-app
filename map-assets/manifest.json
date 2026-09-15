@@ -2,11 +2,11 @@
   "schema": 1,
   "id": "donskoe-map",
   "name": "Карта Донского · 39 полей",
-  "version": "map-v1-2026-09-14",
-  "createdAt": "2026-09-14T07:13:07.5290654Z",
+  "version": "map-v2-2026-09-14",
+  "createdAt": "2026-09-14T20:55:57.2006396Z",
   "source": "НСПД / Росреестр · ЕЭКО ортофото",
   "resolutionM": 0.74,
-  "sizeBytes": 49399662,
+  "sizeBytes": 131924372,
   "detailViewWidthM": 9000,
   "bounds": {
     "minLon": 38.58376006216383,
@@ -15,6 +15,97 @@
     "maxLat": 51.63252409612505
   },
   "blocks": [
+    {
+      "id": "o-z16-b9964-5437",
+      "file": "blocks/o-z16-b9964-5437.jpg",
+      "tier": "overview",
+      "bytes": 259383,
+      "sha256": "e25aad531c2d466409415da8faa25aaf0ef6e41668006458a1e2057b5efb73ba",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.64529404930539,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.65892664880053
+      }
+    },
+    {
+      "id": "o-z16-b9965-5437",
+      "file": "blocks/o-z16-b9965-5437.jpg",
+      "tier": "overview",
+      "bytes": 324314,
+      "sha256": "cb81db4f4a82f4043bb72d78db0e29d54ab67419d843f9837a0e820ce39a688e",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.64529404930539,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.65892664880053
+      }
+    },
+    {
+      "id": "o-z16-b9966-5437",
+      "file": "blocks/o-z16-b9966-5437.jpg",
+      "tier": "overview",
+      "bytes": 351326,
+      "sha256": "b21551c7ed3e5eb85fe4d1f3e08f56d23ed81e73e7b11a5572eb5473693f8e40",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.64529404930539,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.65892664880053
+      }
+    },
+    {
+      "id": "o-z16-b9967-5437",
+      "file": "blocks/o-z16-b9967-5437.jpg",
+      "tier": "overview",
+      "bytes": 322969,
+      "sha256": "70db967c52486c5b4993ed44d66c11371e78425ab97d4560f0620cbced546a31",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.64529404930539,
+        "maxLon": 39.0234375,
+        "maxLat": 51.65892664880053
+      }
+    },
+    {
+      "id": "o-z16-b9962-5438",
+      "file": "blocks/o-z16-b9962-5438.jpg",
+      "tier": "overview",
+      "bytes": 229907,
+      "sha256": "2226d52255229e4000970f3aa9bc403fdff703549b0afdae7043397c640f85b1",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.63165734944998,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "o-z16-b9963-5438",
+      "file": "blocks/o-z16-b9963-5438.jpg",
+      "tier": "overview",
+      "bytes": 289182,
+      "sha256": "7ab9a7736ec69b2b44d27980eaed1edbfd6b400ea1d2fa5bfa22cde74af7794c",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.63165734944998,
+        "maxLon": 38.935546875,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "o-z16-b9964-5438",
+      "file": "blocks/o-z16-b9964-5438.jpg",
+      "tier": "overview",
+      "bytes": 345226,
+      "sha256": "7db07cf80a24399fb048ce3d0112cf23aa741c9dbfa130bb71e1b29a0c2cab7a",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.63165734944998,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.64529404930539
+      }
+    },
     {
       "id": "o-z16-b9965-5438",
       "file": "blocks/o-z16-b9965-5438.jpg",
@@ -39,6 +130,97 @@
         "minLat": 51.63165734944998,
         "maxLon": 39.00146484375,
         "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "o-z16-b9967-5438",
+      "file": "blocks/o-z16-b9967-5438.jpg",
+      "tier": "overview",
+      "bytes": 262904,
+      "sha256": "db2975055e7b92dfcf768383cec86a3f229c6f04ed7377bc5f12a6bea43f4b2e",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.63165734944998,
+        "maxLon": 39.0234375,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "o-z16-b9968-5438",
+      "file": "blocks/o-z16-b9968-5438.jpg",
+      "tier": "overview",
+      "bytes": 233999,
+      "sha256": "f239ea204bbe5301215fc319f617a9de57bb51912cc94af4751f44ad06371f95",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.63165734944998,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "o-z16-b9960-5439",
+      "file": "blocks/o-z16-b9960-5439.jpg",
+      "tier": "overview",
+      "bytes": 275536,
+      "sha256": "479096446e874074c36aca9ffb26fd09fb864f33bc0b4889e8fe3ee974036931",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
+      "id": "o-z16-b9961-5439",
+      "file": "blocks/o-z16-b9961-5439.jpg",
+      "tier": "overview",
+      "bytes": 274964,
+      "sha256": "e1f2f03d7c188b43bf3eb97cdcc5fcb6706c8a82c248d2940e50a00d836a7bf9",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
+      "id": "o-z16-b9962-5439",
+      "file": "blocks/o-z16-b9962-5439.jpg",
+      "tier": "overview",
+      "bytes": 299312,
+      "sha256": "ca653fc283b5039dfa4ba7d15c85b0d369ebb782c1042f99796b587a3e0c58d7",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
+      "id": "o-z16-b9963-5439",
+      "file": "blocks/o-z16-b9963-5439.jpg",
+      "tier": "overview",
+      "bytes": 328452,
+      "sha256": "c97fb4d038594452f701602010a0bacfd35dea1c5557bdb3a51fdee94045e391",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.935546875,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
+      "id": "o-z16-b9964-5439",
+      "file": "blocks/o-z16-b9964-5439.jpg",
+      "tier": "overview",
+      "bytes": 330216,
+      "sha256": "755011682f74e2e335aa321bd91fa1a26b33993d6841c91a534c27680b7cf21a",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.63165734944998
       }
     },
     {
@@ -68,6 +250,305 @@
       }
     },
     {
+      "id": "o-z16-b9967-5439",
+      "file": "blocks/o-z16-b9967-5439.jpg",
+      "tier": "overview",
+      "bytes": 269207,
+      "sha256": "cef66f575c4d96f3811d2ec35223b1a481c37291423c09d1dd646c6cf4e3abd3",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.618016548773696,
+        "maxLon": 39.0234375,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
+      "id": "o-z16-b9968-5439",
+      "file": "blocks/o-z16-b9968-5439.jpg",
+      "tier": "overview",
+      "bytes": 304207,
+      "sha256": "6827ca9f8d5bb9033a1d08c2ed6c8dd20d77dde9183e69dc8ec6148a2745edc4",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.618016548773696,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
+      "id": "o-z16-b9958-5440",
+      "file": "blocks/o-z16-b9958-5440.jpg",
+      "tier": "overview",
+      "bytes": 191423,
+      "sha256": "365a182cbb4f47f36d22dcbfb9311dcf286c7b59b66b8068f8224998bfcab91f",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9959-5440",
+      "file": "blocks/o-z16-b9959-5440.jpg",
+      "tier": "overview",
+      "bytes": 223004,
+      "sha256": "c52e6f9559bc95dee771d555e3dc73f8d8c35d909d168c856c8002735a8e7ead",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.84765625,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9960-5440",
+      "file": "blocks/o-z16-b9960-5440.jpg",
+      "tier": "overview",
+      "bytes": 303881,
+      "sha256": "a8a8a6784a18c3d7b592c5fe1766cee25f5641ec291668a81e77d582996a0771",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9961-5440",
+      "file": "blocks/o-z16-b9961-5440.jpg",
+      "tier": "overview",
+      "bytes": 315649,
+      "sha256": "96a24310aadf69fdd1631ac910e76d837d66875460b718f9a05f9cad7de544aa",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9962-5440",
+      "file": "blocks/o-z16-b9962-5440.jpg",
+      "tier": "overview",
+      "bytes": 388641,
+      "sha256": "117b8570cfceacec1d54edde76c16e5fd50a1270afc46843071275c5646a83a5",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9963-5440",
+      "file": "blocks/o-z16-b9963-5440.jpg",
+      "tier": "overview",
+      "bytes": 238987,
+      "sha256": "e29280aa323cc4f8503ec807a1a4676022a848693722ffd3a14db644e9517e25",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.935546875,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9964-5440",
+      "file": "blocks/o-z16-b9964-5440.jpg",
+      "tier": "overview",
+      "bytes": 268119,
+      "sha256": "d611182277bfd4a8495006ac465ed7c6805e464438cf2a14f841e4cc466ebc9b",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9965-5440",
+      "file": "blocks/o-z16-b9965-5440.jpg",
+      "tier": "overview",
+      "bytes": 161690,
+      "sha256": "3eccfd1e44b618622ccf2c79e56a0af8226a05cc33c1bdc2b9d0b8710d8d82f9",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9966-5440",
+      "file": "blocks/o-z16-b9966-5440.jpg",
+      "tier": "overview",
+      "bytes": 291557,
+      "sha256": "26056cb41ba6491152574bad1e398c606f356d4b15c237b6135a4334141044b5",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.60437164681676,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9967-5440",
+      "file": "blocks/o-z16-b9967-5440.jpg",
+      "tier": "overview",
+      "bytes": 299685,
+      "sha256": "aa803e38cfc7586518563e0719f45ee49f080fe0142758508329013ec0124dc6",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.60437164681676,
+        "maxLon": 39.0234375,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9968-5440",
+      "file": "blocks/o-z16-b9968-5440.jpg",
+      "tier": "overview",
+      "bytes": 259902,
+      "sha256": "6b4e97350657f166e65f50ea2cdf5f2fe23f01d5edd30b74f815137d0c53c2cf",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.60437164681676,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9969-5440",
+      "file": "blocks/o-z16-b9969-5440.jpg",
+      "tier": "overview",
+      "bytes": 329550,
+      "sha256": "14fbab352119f30fc5ba3878b3765d949247f7cf59f19695fda6cdf5aa4c2b9e",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.60437164681676,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.618016548773696
+      }
+    },
+    {
+      "id": "o-z16-b9956-5441",
+      "file": "blocks/o-z16-b9956-5441.jpg",
+      "tier": "overview",
+      "bytes": 279730,
+      "sha256": "990fc4be021b9e3ccff477d49b754bc2a860e8793ec7117f580e665041a310e6",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9957-5441",
+      "file": "blocks/o-z16-b9957-5441.jpg",
+      "tier": "overview",
+      "bytes": 225589,
+      "sha256": "a7e3de0a76ce75f895bae6aac959829fa7589680dd67d3bd7c3286de513a3d76",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9958-5441",
+      "file": "blocks/o-z16-b9958-5441.jpg",
+      "tier": "overview",
+      "bytes": 163217,
+      "sha256": "2e62f328531c03b9aa6e3d72714fc0049427cff892f29759390f388fbefef7a6",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9959-5441",
+      "file": "blocks/o-z16-b9959-5441.jpg",
+      "tier": "overview",
+      "bytes": 158736,
+      "sha256": "7722637cfef8a654909bfafe62dcd37131df31fc8d93e16a173233c2f25861f9",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.84765625,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9960-5441",
+      "file": "blocks/o-z16-b9960-5441.jpg",
+      "tier": "overview",
+      "bytes": 272186,
+      "sha256": "dd1efb7496bb6525e5cf75f0f7c1c3a209bcbe08730376f1c7c70fd8e7b0e8a1",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9961-5441",
+      "file": "blocks/o-z16-b9961-5441.jpg",
+      "tier": "overview",
+      "bytes": 297566,
+      "sha256": "4e1bd66fc2ae45f3151e2ca0dd20cfaa4e516e6797e92762d8a79fdc5e265960",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9962-5441",
+      "file": "blocks/o-z16-b9962-5441.jpg",
+      "tier": "overview",
+      "bytes": 321555,
+      "sha256": "a3f4f658eb1ec927f98b51ad12f5e949eace9d785acc78630ed2af530f969645",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9963-5441",
+      "file": "blocks/o-z16-b9963-5441.jpg",
+      "tier": "overview",
+      "bytes": 193812,
+      "sha256": "de48495d2bab5be07151a5219587dbf1f55ab4f605ea24d24c142980cef01c6a",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.935546875,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9964-5441",
+      "file": "blocks/o-z16-b9964-5441.jpg",
+      "tier": "overview",
+      "bytes": 224060,
+      "sha256": "bb523f0d879d658650fea301cb98e0a0b55b9b1829ca0ec5b0c26910c005e191",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.590722643120145,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
       "id": "o-z16-b9965-5441",
       "file": "blocks/o-z16-b9965-5441.jpg",
       "tier": "overview",
@@ -94,6 +575,188 @@
       }
     },
     {
+      "id": "o-z16-b9967-5441",
+      "file": "blocks/o-z16-b9967-5441.jpg",
+      "tier": "overview",
+      "bytes": 248005,
+      "sha256": "58741e93d5d354e18c3c03e4a574d5dd50550b8614606159d49cac732b295e38",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.590722643120145,
+        "maxLon": 39.0234375,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9968-5441",
+      "file": "blocks/o-z16-b9968-5441.jpg",
+      "tier": "overview",
+      "bytes": 320389,
+      "sha256": "de230a797abad2eb61375154e0243d8930527847cbf072f795d8f3be9ae6b316",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.590722643120145,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9969-5441",
+      "file": "blocks/o-z16-b9969-5441.jpg",
+      "tier": "overview",
+      "bytes": 335505,
+      "sha256": "969e2fbd1a7c17493df56ef63b73393ba418c81e40bb5f255d3506443e30cf3b",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.590722643120145,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "o-z16-b9954-5442",
+      "file": "blocks/o-z16-b9954-5442.jpg",
+      "tier": "overview",
+      "bytes": 167975,
+      "sha256": "445f5db9dbcabd17137893027b89fb5752c13524d751772903a39bad015f0b80",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9955-5442",
+      "file": "blocks/o-z16-b9955-5442.jpg",
+      "tier": "overview",
+      "bytes": 266400,
+      "sha256": "b23f4f05cced7dcfc0cddac38c9d8c50e2f8f74aa4958c869471c7c7118ef089",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.759765625,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9956-5442",
+      "file": "blocks/o-z16-b9956-5442.jpg",
+      "tier": "overview",
+      "bytes": 324772,
+      "sha256": "b7206c8aec12fd03de6f5a4a5c4e7de931d2ce3dc5f019b10ae87ad9a8bb6490",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9957-5442",
+      "file": "blocks/o-z16-b9957-5442.jpg",
+      "tier": "overview",
+      "bytes": 378173,
+      "sha256": "2b451fba48f5a13c6f686fc3bf3ba412c83eddd23ac1946894298be9cf993172",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9958-5442",
+      "file": "blocks/o-z16-b9958-5442.jpg",
+      "tier": "overview",
+      "bytes": 283967,
+      "sha256": "a1589ca4d14439cac054a79eb52d6dd8494529729770d079aeb01024daa7d515",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9959-5442",
+      "file": "blocks/o-z16-b9959-5442.jpg",
+      "tier": "overview",
+      "bytes": 310293,
+      "sha256": "1fc85304d959c4ac75fee099d2f934ee841ba46022564f5b733fe31dd000904f",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.84765625,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9960-5442",
+      "file": "blocks/o-z16-b9960-5442.jpg",
+      "tier": "overview",
+      "bytes": 285131,
+      "sha256": "644633757c754859cd3a5741d503782e5e2fb0b139902d1920c2d8c0be4b2a83",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9961-5442",
+      "file": "blocks/o-z16-b9961-5442.jpg",
+      "tier": "overview",
+      "bytes": 232990,
+      "sha256": "96ef98a9082baf6f4cd3f363c77199cc7074826a3e389e11736a58e7dab9cbfd",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9962-5442",
+      "file": "blocks/o-z16-b9962-5442.jpg",
+      "tier": "overview",
+      "bytes": 233653,
+      "sha256": "3a07f9c0c32610c99b6ce7a65a5ddea9f95e168c8b6e49b3dae1e93fcc33084d",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9963-5442",
+      "file": "blocks/o-z16-b9963-5442.jpg",
+      "tier": "overview",
+      "bytes": 227071,
+      "sha256": "fcc5caacc1a556826b833697a29d8cde6d66d66139bbd5942cefb86e743e36b1",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.935546875,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9964-5442",
+      "file": "blocks/o-z16-b9964-5442.jpg",
+      "tier": "overview",
+      "bytes": 237699,
+      "sha256": "d5a5f9c3708832f36ecbecf27cdc2bfbf036966ab81251b755737fb1e9dd6641",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.57706953722567,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
       "id": "o-z16-b9965-5442",
       "file": "blocks/o-z16-b9965-5442.jpg",
       "tier": "overview",
@@ -117,6 +780,370 @@
         "minLat": 51.57706953722567,
         "maxLon": 39.00146484375,
         "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9967-5442",
+      "file": "blocks/o-z16-b9967-5442.jpg",
+      "tier": "overview",
+      "bytes": 250982,
+      "sha256": "26546fbd926c546fe86252a29b6cd4125e3debf7960afd605e4de03514f7bc0f",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.57706953722567,
+        "maxLon": 39.0234375,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9968-5442",
+      "file": "blocks/o-z16-b9968-5442.jpg",
+      "tier": "overview",
+      "bytes": 302956,
+      "sha256": "8ca440c1602bd460771d30749466a7b32345403e81bca8670db5c087fed6e153",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.57706953722567,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9969-5442",
+      "file": "blocks/o-z16-b9969-5442.jpg",
+      "tier": "overview",
+      "bytes": 329789,
+      "sha256": "d0d146d1614d09b4eab28c884eff6f5eab267f3d06a5c66c9aa5b3ef90cdf514",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.57706953722567,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9970-5442",
+      "file": "blocks/o-z16-b9970-5442.jpg",
+      "tier": "overview",
+      "bytes": 322128,
+      "sha256": "9fa396b1bd6123d04fdc55bf09d52748645eace623df31d50dc93185d9e98503",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.57706953722567,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "o-z16-b9952-5443",
+      "file": "blocks/o-z16-b9952-5443.jpg",
+      "tier": "overview",
+      "bytes": 169521,
+      "sha256": "7061031e70b40d8753bfdc6b0d4d4106d2be26b1123dc1ae269c067fab7786f5",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9953-5443",
+      "file": "blocks/o-z16-b9953-5443.jpg",
+      "tier": "overview",
+      "bytes": 195712,
+      "sha256": "be2407778c41e5b590367225e9430faa63caa0f936a58258fd1785549aee19b9",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9954-5443",
+      "file": "blocks/o-z16-b9954-5443.jpg",
+      "tier": "overview",
+      "bytes": 282083,
+      "sha256": "05a7833cc3de01ced9cd93cc5e284f4ada9a54cd37e3084ccd6896bd64af561c",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9955-5443",
+      "file": "blocks/o-z16-b9955-5443.jpg",
+      "tier": "overview",
+      "bytes": 333890,
+      "sha256": "1b80aa6eebac5d8dbdd4c3027d8188d9245ed18252ae80008c1829a16a16d55b",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.759765625,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9956-5443",
+      "file": "blocks/o-z16-b9956-5443.jpg",
+      "tier": "overview",
+      "bytes": 375209,
+      "sha256": "bc2ff74bac854319bbee1c4f8e3054b84436325627911b481b02a8436fa056cc",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9957-5443",
+      "file": "blocks/o-z16-b9957-5443.jpg",
+      "tier": "overview",
+      "bytes": 360068,
+      "sha256": "d402e968b4d0187c157e4443406946ed59ae4b126d5296b967706a574a3d3a00",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9958-5443",
+      "file": "blocks/o-z16-b9958-5443.jpg",
+      "tier": "overview",
+      "bytes": 288788,
+      "sha256": "8970b5617b37f2c3a1b4a4b7021904e013193bd07fd6d5bec3bf79de299da7ed",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9959-5443",
+      "file": "blocks/o-z16-b9959-5443.jpg",
+      "tier": "overview",
+      "bytes": 247537,
+      "sha256": "dcd27f34868d85ee5bbb1c38f81bc6961f6fa23b57ab00b64d271c14284ee5f4",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.84765625,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9960-5443",
+      "file": "blocks/o-z16-b9960-5443.jpg",
+      "tier": "overview",
+      "bytes": 160794,
+      "sha256": "aa5a55da80519d06fa9c5cb396335090f1825a7d731f44c88ccb883064725d0a",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9961-5443",
+      "file": "blocks/o-z16-b9961-5443.jpg",
+      "tier": "overview",
+      "bytes": 174901,
+      "sha256": "1bebdf9a4145d2a7f42a4b0d08c3dac0af5da5e20661ef437f745d9f00accf00",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9962-5443",
+      "file": "blocks/o-z16-b9962-5443.jpg",
+      "tier": "overview",
+      "bytes": 227751,
+      "sha256": "3c7bb8032dc2b96ca3cb679f28ff2b4c59c35862d805e204b452c60c05dac86d",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9963-5443",
+      "file": "blocks/o-z16-b9963-5443.jpg",
+      "tier": "overview",
+      "bytes": 211785,
+      "sha256": "1ddbb41856bb234d6718074e1bcea958a39778a3b7ee44e1c486d088955472c3",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.935546875,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9964-5443",
+      "file": "blocks/o-z16-b9964-5443.jpg",
+      "tier": "overview",
+      "bytes": 251563,
+      "sha256": "924e73d93d74ae38870d09c7a7280fc20633494f19badc184b14f5fcab064924",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9965-5443",
+      "file": "blocks/o-z16-b9965-5443.jpg",
+      "tier": "overview",
+      "bytes": 215627,
+      "sha256": "62e08772437998476c4af9ce274d2b5c58253d19e91892c788ae35bcc6712090",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.56341232867588,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9966-5443",
+      "file": "blocks/o-z16-b9966-5443.jpg",
+      "tier": "overview",
+      "bytes": 157528,
+      "sha256": "f25dcd3a862eb0d5f8392ab90282aa9aa578d08627c502af10bf8e2edee3f2ed",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.56341232867588,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9967-5443",
+      "file": "blocks/o-z16-b9967-5443.jpg",
+      "tier": "overview",
+      "bytes": 235808,
+      "sha256": "13ad79207ac5a5ffb85b6235524d902c05540c8f3da5909d202853f4f80b897d",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.56341232867588,
+        "maxLon": 39.0234375,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9968-5443",
+      "file": "blocks/o-z16-b9968-5443.jpg",
+      "tier": "overview",
+      "bytes": 246984,
+      "sha256": "819eee23e43fd9314b3af04940d54a5d7785e1ac8bc6862746c10af22bbb2db6",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.56341232867588,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9969-5443",
+      "file": "blocks/o-z16-b9969-5443.jpg",
+      "tier": "overview",
+      "bytes": 343825,
+      "sha256": "f5ceb7e947aea8199352a5cb67611b96af6ebb29c2a90c97bcd8534bf16cfb94",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.56341232867588,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9970-5443",
+      "file": "blocks/o-z16-b9970-5443.jpg",
+      "tier": "overview",
+      "bytes": 316794,
+      "sha256": "04614f25f9cad027028da1a76cb5eb81731acadee91271fb8e1fcfc533692b73",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.56341232867588,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.57706953722567
+      }
+    },
+    {
+      "id": "o-z16-b9950-5444",
+      "file": "blocks/o-z16-b9950-5444.jpg",
+      "tier": "overview",
+      "bytes": 220263,
+      "sha256": "176fb87c3dc976a59c739b258c2f24d1c34432f620d917cca44405aefff943bb",
+      "bounds": {
+        "minLon": 38.6279296875,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.64990234375,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9951-5444",
+      "file": "blocks/o-z16-b9951-5444.jpg",
+      "tier": "overview",
+      "bytes": 233736,
+      "sha256": "35106fd83b80716c08159e8e174cfa70a9c0de47b7d22e83999957976fc7cd6c",
+      "bounds": {
+        "minLon": 38.64990234375,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.671875,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9952-5444",
+      "file": "blocks/o-z16-b9952-5444.jpg",
+      "tier": "overview",
+      "bytes": 199353,
+      "sha256": "97a34c6b450f631e5099d190c1f13c6588cf3a8897bdb8870faabea1688fb309",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9953-5444",
+      "file": "blocks/o-z16-b9953-5444.jpg",
+      "tier": "overview",
+      "bytes": 213405,
+      "sha256": "20677c820664a875db9afac3e3867503c214e1e419447ad73e35acd91eeeac94",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9954-5444",
+      "file": "blocks/o-z16-b9954-5444.jpg",
+      "tier": "overview",
+      "bytes": 304717,
+      "sha256": "d05ae692124b55e88f7ecbf266a9f3400876973f91cfdd781f3c28cfe8f5d361",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.56341232867588
       }
     },
     {
@@ -159,6 +1186,292 @@
       }
     },
     {
+      "id": "o-z16-b9958-5444",
+      "file": "blocks/o-z16-b9958-5444.jpg",
+      "tier": "overview",
+      "bytes": 245652,
+      "sha256": "d4d27190aa575568e09a3c1a8033e584efd22f6aad15fdf64d7fb1f2dc7f1f85",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9959-5444",
+      "file": "blocks/o-z16-b9959-5444.jpg",
+      "tier": "overview",
+      "bytes": 217858,
+      "sha256": "70fc37537dcb76e57ffc49cb2f11ef10008be85e53dab228dd80564ae374766f",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.84765625,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9960-5444",
+      "file": "blocks/o-z16-b9960-5444.jpg",
+      "tier": "overview",
+      "bytes": 148661,
+      "sha256": "afbde0ad3cf1e37f7688eea6a12cc5b5e96925e22af3310f238cd06c42427801",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9961-5444",
+      "file": "blocks/o-z16-b9961-5444.jpg",
+      "tier": "overview",
+      "bytes": 153088,
+      "sha256": "dedf7da26d1078c6b9755bd0d7a0d148c2d580426ef6c5dce2fb9c3dca1e0491",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9962-5444",
+      "file": "blocks/o-z16-b9962-5444.jpg",
+      "tier": "overview",
+      "bytes": 258063,
+      "sha256": "a77892b63c1ea840ca4e5d12d105380702edc027befc927a20a26f5e16bd5996",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9963-5444",
+      "file": "blocks/o-z16-b9963-5444.jpg",
+      "tier": "overview",
+      "bytes": 243430,
+      "sha256": "df710edad6ddb32fb4323f799bd4d28e5401deb9f647dd1a1c2796958e775c49",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.935546875,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9964-5444",
+      "file": "blocks/o-z16-b9964-5444.jpg",
+      "tier": "overview",
+      "bytes": 232770,
+      "sha256": "a91ccf14dfcd310ff049fe5633c5a7bab96df4b25aafc9be610b70959d7b42ca",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9965-5444",
+      "file": "blocks/o-z16-b9965-5444.jpg",
+      "tier": "overview",
+      "bytes": 210745,
+      "sha256": "3af63795208039e83c69d2c44d93ce92aa1de143cfcb21bb1cb83f90f2752541",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9966-5444",
+      "file": "blocks/o-z16-b9966-5444.jpg",
+      "tier": "overview",
+      "bytes": 159571,
+      "sha256": "f9ca694be0876df386e3e8292cd64f0d106b9cc1c3940195830a63c19d4a6db6",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9967-5444",
+      "file": "blocks/o-z16-b9967-5444.jpg",
+      "tier": "overview",
+      "bytes": 279451,
+      "sha256": "a0b421319f02d7ebb120145e69c72a7f1628a0d0af7caba5950785d151ff496a",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.0234375,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9968-5444",
+      "file": "blocks/o-z16-b9968-5444.jpg",
+      "tier": "overview",
+      "bytes": 252041,
+      "sha256": "66664bf8dc2ad3b94907a3dbb7bab0d92697cc3d6fb32d002c23855458ce96e2",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9969-5444",
+      "file": "blocks/o-z16-b9969-5444.jpg",
+      "tier": "overview",
+      "bytes": 283227,
+      "sha256": "e4aa103dd6f25ad84071236db19807c9ced36fbd98ea110cf3664dd6eeb66010",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9970-5444",
+      "file": "blocks/o-z16-b9970-5444.jpg",
+      "tier": "overview",
+      "bytes": 353324,
+      "sha256": "b0e61e74cedf612e69ffbaa0c1ac5047ee86935cffe124e2a2e65f70f1a12ea8",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9971-5444",
+      "file": "blocks/o-z16-b9971-5444.jpg",
+      "tier": "overview",
+      "bytes": 331154,
+      "sha256": "7627ebb36d280583f63cbf46c2a4db6df64078cfe095d71a1a5a0c389faa4408",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.111328125,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "o-z16-b9947-5445",
+      "file": "blocks/o-z16-b9947-5445.jpg",
+      "tier": "overview",
+      "bytes": 213465,
+      "sha256": "688bdd2782c67b8c872a1da3af25166c65396ec57ed9da6ba2f9f5d0f0a20785",
+      "bounds": {
+        "minLon": 38.56201171875,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.583984375,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9948-5445",
+      "file": "blocks/o-z16-b9948-5445.jpg",
+      "tier": "overview",
+      "bytes": 232039,
+      "sha256": "529a4b5c65cb21ae9fbf762f1bd0afb39a9a2333e580e3c32fd258c3bc730366",
+      "bounds": {
+        "minLon": 38.583984375,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.60595703125,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9949-5445",
+      "file": "blocks/o-z16-b9949-5445.jpg",
+      "tier": "overview",
+      "bytes": 241473,
+      "sha256": "16a3a1e4493036b4335e94aa91c9e4b60e85900489f0c255f1b37c7310eb02b5",
+      "bounds": {
+        "minLon": 38.60595703125,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.6279296875,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9950-5445",
+      "file": "blocks/o-z16-b9950-5445.jpg",
+      "tier": "overview",
+      "bytes": 214333,
+      "sha256": "e66f98d3fcb3393894c9d415f4492927f51b076f59853f0db7c11d2bf8998c4e",
+      "bounds": {
+        "minLon": 38.6279296875,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.64990234375,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9951-5445",
+      "file": "blocks/o-z16-b9951-5445.jpg",
+      "tier": "overview",
+      "bytes": 272302,
+      "sha256": "95cd487da2a9819aec9c123343999707426df6cc13f6156c63a7fdf791fd59cf",
+      "bounds": {
+        "minLon": 38.64990234375,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.671875,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9952-5445",
+      "file": "blocks/o-z16-b9952-5445.jpg",
+      "tier": "overview",
+      "bytes": 271809,
+      "sha256": "313fc3b8e480025f5f2949aec06e91a10f0fd62d0873b31247f8491ac2bdec88",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9953-5445",
+      "file": "blocks/o-z16-b9953-5445.jpg",
+      "tier": "overview",
+      "bytes": 283582,
+      "sha256": "dd29c7f7f3090198fd816b66b964f586c5661c5dd1645fce10833e6c72e46c05",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9954-5445",
+      "file": "blocks/o-z16-b9954-5445.jpg",
+      "tier": "overview",
+      "bytes": 280571,
+      "sha256": "58ba45440d5005ee885166f7479d6d3b43e8c0640f31b3502c3d2e352997a3d4",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
       "id": "o-z16-b9955-5445",
       "file": "blocks/o-z16-b9955-5445.jpg",
       "tier": "overview",
@@ -194,6 +1507,110 @@
         "minLon": 38.78173828125,
         "minLat": 51.53608560178474,
         "maxLon": 38.8037109375,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9958-5445",
+      "file": "blocks/o-z16-b9958-5445.jpg",
+      "tier": "overview",
+      "bytes": 247546,
+      "sha256": "60d1b5e5ad050b118c572caef34b4729e5821619c3a25db4514fce824897e7f9",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9959-5445",
+      "file": "blocks/o-z16-b9959-5445.jpg",
+      "tier": "overview",
+      "bytes": 226354,
+      "sha256": "2aa687ed1bc4f28c0a1fd7a7f834ebaacf5ad9f4b5a143c8410856940837b4c2",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.84765625,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9960-5445",
+      "file": "blocks/o-z16-b9960-5445.jpg",
+      "tier": "overview",
+      "bytes": 126979,
+      "sha256": "83299a06a283549608415669d503629ed8f50fa3bac875721b698dd441c73c89",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9961-5445",
+      "file": "blocks/o-z16-b9961-5445.jpg",
+      "tier": "overview",
+      "bytes": 140453,
+      "sha256": "97fc3876e66e1627d1e407663c0e80fa20aeb59e7d73f25a7b50d6c2588f7a26",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9962-5445",
+      "file": "blocks/o-z16-b9962-5445.jpg",
+      "tier": "overview",
+      "bytes": 150393,
+      "sha256": "6b6c5c945968767540821ba66eed34d42a0955d963a29b846be64323e2e2f740",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9963-5445",
+      "file": "blocks/o-z16-b9963-5445.jpg",
+      "tier": "overview",
+      "bytes": 269855,
+      "sha256": "0ed33315335b7b4b59f79ba64ca72fa4426d3cbfb3ae2a06b258688e99177c9d",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.935546875,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9964-5445",
+      "file": "blocks/o-z16-b9964-5445.jpg",
+      "tier": "overview",
+      "bytes": 305372,
+      "sha256": "cc4b6b37271b8ba1fb848107d183755aaf21eb767c842d5d60254564370a1856",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9965-5445",
+      "file": "blocks/o-z16-b9965-5445.jpg",
+      "tier": "overview",
+      "bytes": 223824,
+      "sha256": "b62f1220bbd056ac4c81d28f1af074dd2ae2c732d197b5a3e8a7e750b364a1b3",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.9794921875,
         "maxLat": 51.549751017014174
       }
     },
@@ -260,6 +1677,279 @@
         "minLat": 51.53608560178474,
         "maxLon": 39.08935546875,
         "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9971-5445",
+      "file": "blocks/o-z16-b9971-5445.jpg",
+      "tier": "overview",
+      "bytes": 240896,
+      "sha256": "d9caff7dbbcbd8948ebe0d082f4dfb3327d896965c4f728d77549a5e07b9ba4b",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.53608560178474,
+        "maxLon": 39.111328125,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "o-z16-b9946-5446",
+      "file": "blocks/o-z16-b9946-5446.jpg",
+      "tier": "overview",
+      "bytes": 187812,
+      "sha256": "dfdf5675414d703f9f2238535070348e2a0436ef654b0954eb01562b0ce9eabd",
+      "bounds": {
+        "minLon": 38.5400390625,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.56201171875,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9947-5446",
+      "file": "blocks/o-z16-b9947-5446.jpg",
+      "tier": "overview",
+      "bytes": 261415,
+      "sha256": "954240548567627d3efde8eea7d62a3d505078e3609787ccf6610e907f6cda29",
+      "bounds": {
+        "minLon": 38.56201171875,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.583984375,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9948-5446",
+      "file": "blocks/o-z16-b9948-5446.jpg",
+      "tier": "overview",
+      "bytes": 269327,
+      "sha256": "c6490d142cdcd702c7dcbcde7cd253c27493f27a64d643c1b930798cf78908be",
+      "bounds": {
+        "minLon": 38.583984375,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.60595703125,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9949-5446",
+      "file": "blocks/o-z16-b9949-5446.jpg",
+      "tier": "overview",
+      "bytes": 240462,
+      "sha256": "7af920e2031ef5bd5e4d67653b3dd39d0baf27b023a453e3d1268f2bb890b3d1",
+      "bounds": {
+        "minLon": 38.60595703125,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.6279296875,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9950-5446",
+      "file": "blocks/o-z16-b9950-5446.jpg",
+      "tier": "overview",
+      "bytes": 241480,
+      "sha256": "8bed8fc5791f4345d9b4272e8cab72ca4cb7438ab06821fd60079158801d99ac",
+      "bounds": {
+        "minLon": 38.6279296875,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.64990234375,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9951-5446",
+      "file": "blocks/o-z16-b9951-5446.jpg",
+      "tier": "overview",
+      "bytes": 227392,
+      "sha256": "57d03dc08d09a55e75b23ebc3c04d134643a3c30e7b76d50a3809f3dfc347af0",
+      "bounds": {
+        "minLon": 38.64990234375,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.671875,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9952-5446",
+      "file": "blocks/o-z16-b9952-5446.jpg",
+      "tier": "overview",
+      "bytes": 227640,
+      "sha256": "2620d6d73171f8cc0450ff94d2502bdb2a07070debb1456460e21ba5b99241e2",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9953-5446",
+      "file": "blocks/o-z16-b9953-5446.jpg",
+      "tier": "overview",
+      "bytes": 211149,
+      "sha256": "c4e7d9c53bc4e55301d23eb91350dc8b7160fba66d79528fa2af488c47cafd04",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9954-5446",
+      "file": "blocks/o-z16-b9954-5446.jpg",
+      "tier": "overview",
+      "bytes": 216223,
+      "sha256": "98ec2485a605d1ccbe0b4c9d82dd05c53cca3e3d7d62ea9300c4ad94f996d6b0",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9955-5446",
+      "file": "blocks/o-z16-b9955-5446.jpg",
+      "tier": "overview",
+      "bytes": 207681,
+      "sha256": "afdcb7986ea9650895a939f02adb153da0d8589d880f3c9a3f9a9715ae49c1ba",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.759765625,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9956-5446",
+      "file": "blocks/o-z16-b9956-5446.jpg",
+      "tier": "overview",
+      "bytes": 173347,
+      "sha256": "be8d37d2189af758b1d8cdc67fe755dd8db0464ce01694a2857a9a1cc26eb015",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9957-5446",
+      "file": "blocks/o-z16-b9957-5446.jpg",
+      "tier": "overview",
+      "bytes": 134127,
+      "sha256": "cf6b38729f6df0ef3a496a8fae804402d5bbeadd57f96c44eed3a1f88975438d",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9958-5446",
+      "file": "blocks/o-z16-b9958-5446.jpg",
+      "tier": "overview",
+      "bytes": 179460,
+      "sha256": "ab03d4598222ae1a6d6de0dcf1f0375efc6c87df21d6e4454cd9412a25affb59",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9959-5446",
+      "file": "blocks/o-z16-b9959-5446.jpg",
+      "tier": "overview",
+      "bytes": 185535,
+      "sha256": "c51b83036912755490320594860841f78596e8606c0c72efbbb925d60b0b267e",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.84765625,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9960-5446",
+      "file": "blocks/o-z16-b9960-5446.jpg",
+      "tier": "overview",
+      "bytes": 122763,
+      "sha256": "39905a7ee7eeff46d08173e7208b068ad196dad649f6a2b50635105c258f71d0",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9961-5446",
+      "file": "blocks/o-z16-b9961-5446.jpg",
+      "tier": "overview",
+      "bytes": 116275,
+      "sha256": "e7338a08746f32edadea17086beda0363c777a01ac27e47ae87a0368ed60fb8c",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9962-5446",
+      "file": "blocks/o-z16-b9962-5446.jpg",
+      "tier": "overview",
+      "bytes": 172596,
+      "sha256": "fa5ef072d42259278bb6964533edc8d5da6dec5c703b8f18c0daa78b3ee7ecb2",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9963-5446",
+      "file": "blocks/o-z16-b9963-5446.jpg",
+      "tier": "overview",
+      "bytes": 253795,
+      "sha256": "2d30e1785842ce61238a735adc9d5465bce8b203496e54094f4e041fa47a0ad6",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.935546875,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9964-5446",
+      "file": "blocks/o-z16-b9964-5446.jpg",
+      "tier": "overview",
+      "bytes": 291720,
+      "sha256": "0274b57ea793ad0c53ead17e907e01e044c63a869d97026d54ecd3fee62be46e",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9965-5446",
+      "file": "blocks/o-z16-b9965-5446.jpg",
+      "tier": "overview",
+      "bytes": 220965,
+      "sha256": "fc2dafff84280bd8bcdf002aa171c7ce87d3cb5e5876b3aae1c018b954c7fdcf",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.53608560178474
       }
     },
     {
@@ -341,6 +2031,32 @@
       }
     },
     {
+      "id": "o-z16-b9972-5446",
+      "file": "blocks/o-z16-b9972-5446.jpg",
+      "tier": "overview",
+      "bytes": 288074,
+      "sha256": "ba9af19a64118824b5fab1ae65ea86ac094b624d774dbad12f0332b930441257",
+      "bounds": {
+        "minLon": 39.111328125,
+        "minLat": 51.52241608253254,
+        "maxLon": 39.13330078125,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "o-z16-b9946-5447",
+      "file": "blocks/o-z16-b9946-5447.jpg",
+      "tier": "overview",
+      "bytes": 263876,
+      "sha256": "ac32f3791feb76f444683b5616f29519fe336fc657e66f4e1382a540730e9447",
+      "bounds": {
+        "minLon": 38.5400390625,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.56201171875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
       "id": "o-z16-b9947-5447",
       "file": "blocks/o-z16-b9947-5447.jpg",
       "tier": "overview",
@@ -363,6 +2079,214 @@
         "minLon": 38.583984375,
         "minLat": 51.50874245880333,
         "maxLon": 38.60595703125,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9949-5447",
+      "file": "blocks/o-z16-b9949-5447.jpg",
+      "tier": "overview",
+      "bytes": 193440,
+      "sha256": "2829f814bad729d2369aab4cdb642667e86e3931a78e767b22c743b300aeacd8",
+      "bounds": {
+        "minLon": 38.60595703125,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.6279296875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9950-5447",
+      "file": "blocks/o-z16-b9950-5447.jpg",
+      "tier": "overview",
+      "bytes": 222764,
+      "sha256": "0168896dbcc93cc9dd8d8e8de347306d257662bed8fadb1265d49540770fa292",
+      "bounds": {
+        "minLon": 38.6279296875,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.64990234375,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9951-5447",
+      "file": "blocks/o-z16-b9951-5447.jpg",
+      "tier": "overview",
+      "bytes": 220040,
+      "sha256": "5350e8fd7ab66acbc7158fd2232c1228e585c41edf5e5110b5645b56e4c760f0",
+      "bounds": {
+        "minLon": 38.64990234375,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.671875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9952-5447",
+      "file": "blocks/o-z16-b9952-5447.jpg",
+      "tier": "overview",
+      "bytes": 216569,
+      "sha256": "3dac340e472e25734410e9a8d5e0f9e35f4e9bdcce6458ef3277ad9feff4a8ac",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9953-5447",
+      "file": "blocks/o-z16-b9953-5447.jpg",
+      "tier": "overview",
+      "bytes": 217947,
+      "sha256": "8b6b066bdd7fe94145b5e0d03ddeb48ab5527586496f9241f0a19a69d8b50120",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9954-5447",
+      "file": "blocks/o-z16-b9954-5447.jpg",
+      "tier": "overview",
+      "bytes": 169261,
+      "sha256": "c346bbdf902aa14a5e8f7b5a2f0bf759586abab65a380322e019f6652f09cac3",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9955-5447",
+      "file": "blocks/o-z16-b9955-5447.jpg",
+      "tier": "overview",
+      "bytes": 176317,
+      "sha256": "7f678910eb306672b8204bd08c9bf7d0212c62abca43445d2d3025485a69acad",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.759765625,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9956-5447",
+      "file": "blocks/o-z16-b9956-5447.jpg",
+      "tier": "overview",
+      "bytes": 196429,
+      "sha256": "d4cf5e2ec7b5d5c3fa9dc7cdc23f18f4f6bdb66f565711eed0344779a28b029a",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9957-5447",
+      "file": "blocks/o-z16-b9957-5447.jpg",
+      "tier": "overview",
+      "bytes": 222759,
+      "sha256": "ffbbedc5c7cd52213345c9bd5480aa604794f2bbb6d5584f2d764a864e59dd1c",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9958-5447",
+      "file": "blocks/o-z16-b9958-5447.jpg",
+      "tier": "overview",
+      "bytes": 218657,
+      "sha256": "49421baa78a1ef58e7151b5a7e5820871d71fe5ec23b87add9e9fc424411dbbb",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9959-5447",
+      "file": "blocks/o-z16-b9959-5447.jpg",
+      "tier": "overview",
+      "bytes": 207346,
+      "sha256": "aeb0f778c3ca4cc089dd0db390a45feb3febf7caa6c9f9cca4c620e68170d501",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.84765625,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9960-5447",
+      "file": "blocks/o-z16-b9960-5447.jpg",
+      "tier": "overview",
+      "bytes": 237568,
+      "sha256": "23e08e19c83fa3ed87704d1864a23e0f51ff3ca08769171242e59c9ea1967942",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9961-5447",
+      "file": "blocks/o-z16-b9961-5447.jpg",
+      "tier": "overview",
+      "bytes": 207652,
+      "sha256": "858f47da577a8f8270b8eb6d3c591f1eb70961a754f1b6337334ccfb70359b97",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9962-5447",
+      "file": "blocks/o-z16-b9962-5447.jpg",
+      "tier": "overview",
+      "bytes": 247138,
+      "sha256": "cb9063d6fe250cd51fb7c7f477a07008c194110e96f2a964aefd09b7e2b76175",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9963-5447",
+      "file": "blocks/o-z16-b9963-5447.jpg",
+      "tier": "overview",
+      "bytes": 276012,
+      "sha256": "7edd6fdf73338fde26bfe9b3af5b520885acb1894fed726927e4e7bd03823835",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.935546875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9964-5447",
+      "file": "blocks/o-z16-b9964-5447.jpg",
+      "tier": "overview",
+      "bytes": 316883,
+      "sha256": "61833cd07e5d87a738bbacf326579cec5aecf543afac78fb1d2dc9b5bb0d6e8d",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.95751953125,
         "maxLat": 51.52241608253254
       }
     },
@@ -458,6 +2382,32 @@
       }
     },
     {
+      "id": "o-z16-b9972-5447",
+      "file": "blocks/o-z16-b9972-5447.jpg",
+      "tier": "overview",
+      "bytes": 324779,
+      "sha256": "c770594869982f7b7ca68afab814484154fa13cf557289e8f4665bd0f6bced48",
+      "bounds": {
+        "minLon": 39.111328125,
+        "minLat": 51.50874245880333,
+        "maxLon": 39.13330078125,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "o-z16-b9946-5448",
+      "file": "blocks/o-z16-b9946-5448.jpg",
+      "tier": "overview",
+      "bytes": 288670,
+      "sha256": "119283eb500597b7ded41a3e15ac51436a28e4cb9addb0d5fd902c44e083c4fe",
+      "bounds": {
+        "minLon": 38.5400390625,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.56201171875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
       "id": "o-z16-b9947-5448",
       "file": "blocks/o-z16-b9947-5448.jpg",
       "tier": "overview",
@@ -480,6 +2430,201 @@
         "minLon": 38.583984375,
         "minLat": 51.495064730143696,
         "maxLon": 38.60595703125,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9949-5448",
+      "file": "blocks/o-z16-b9949-5448.jpg",
+      "tier": "overview",
+      "bytes": 154512,
+      "sha256": "85762e191dc83157cc17720617b8c3182b743bc4790a29788144561f3f2c113d",
+      "bounds": {
+        "minLon": 38.60595703125,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.6279296875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9950-5448",
+      "file": "blocks/o-z16-b9950-5448.jpg",
+      "tier": "overview",
+      "bytes": 259788,
+      "sha256": "60301cac113089ce05d74a722e31305edd06a8291e899298ed2de95f0c150d34",
+      "bounds": {
+        "minLon": 38.6279296875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.64990234375,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9951-5448",
+      "file": "blocks/o-z16-b9951-5448.jpg",
+      "tier": "overview",
+      "bytes": 246125,
+      "sha256": "0abdcf300c76dd2e41cb8ad06eae7550f74f058854bb0bb40d7eefcd76b8cfce",
+      "bounds": {
+        "minLon": 38.64990234375,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.671875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9952-5448",
+      "file": "blocks/o-z16-b9952-5448.jpg",
+      "tier": "overview",
+      "bytes": 214312,
+      "sha256": "98dbf3c0962c783961f6d948307749c703a3f9641a6e4c33dc8cca78ab5f0986",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9953-5448",
+      "file": "blocks/o-z16-b9953-5448.jpg",
+      "tier": "overview",
+      "bytes": 220537,
+      "sha256": "7daa63226d68bdaa5cdda2c1f090f870431700ea207b6c35d9dd8e6f5d66d0c5",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9954-5448",
+      "file": "blocks/o-z16-b9954-5448.jpg",
+      "tier": "overview",
+      "bytes": 212586,
+      "sha256": "ef25c43035d37195156f8ded00c51121cfbf510d649c45a335853c2cc142c86f",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9955-5448",
+      "file": "blocks/o-z16-b9955-5448.jpg",
+      "tier": "overview",
+      "bytes": 239172,
+      "sha256": "7cf25118233d7423e2b8bf58f700f13c400aa487617460b980c89ed3804b1812",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.759765625,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9956-5448",
+      "file": "blocks/o-z16-b9956-5448.jpg",
+      "tier": "overview",
+      "bytes": 196709,
+      "sha256": "d8a6ee5be846670e34cd719026c4811bbacf1432a9156be9703d5b4a66c89a66",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9957-5448",
+      "file": "blocks/o-z16-b9957-5448.jpg",
+      "tier": "overview",
+      "bytes": 186361,
+      "sha256": "05b214d31da7218c9d4f81da24a4a974917023972a4badb763a0b51f94bea34b",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9958-5448",
+      "file": "blocks/o-z16-b9958-5448.jpg",
+      "tier": "overview",
+      "bytes": 214028,
+      "sha256": "05e6fbf6f4a4ae81579839a3f2120ee78e36d7dd905881703e9561db44785365",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9959-5448",
+      "file": "blocks/o-z16-b9959-5448.jpg",
+      "tier": "overview",
+      "bytes": 223796,
+      "sha256": "df374edf10ba69c53fe18cc76d99464611bef5cdcd692ae58be317fd24b1963c",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.84765625,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9960-5448",
+      "file": "blocks/o-z16-b9960-5448.jpg",
+      "tier": "overview",
+      "bytes": 235010,
+      "sha256": "dc538d0c1ea011c10d299134d25035a8a869f5001320388bc749fd10b8cb2a2b",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9961-5448",
+      "file": "blocks/o-z16-b9961-5448.jpg",
+      "tier": "overview",
+      "bytes": 214153,
+      "sha256": "cf82e549806c2e86b4fe8f1a64bd192e1d9613a907aad0c3276b4ce3c68062d3",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9962-5448",
+      "file": "blocks/o-z16-b9962-5448.jpg",
+      "tier": "overview",
+      "bytes": 240125,
+      "sha256": "ac511bb80c93a8fd28812b1fc55c3c5a575cba1c2e96b76dcf53b892f66f3f3d",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9963-5448",
+      "file": "blocks/o-z16-b9963-5448.jpg",
+      "tier": "overview",
+      "bytes": 249049,
+      "sha256": "bc9056f763b50890d756b321f5e3e415a863385609597825c9606d109a07dbc3",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.935546875,
         "maxLat": 51.50874245880333
       }
     },
@@ -559,6 +2704,240 @@
         "minLat": 51.495064730143696,
         "maxLon": 39.0673828125,
         "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9970-5448",
+      "file": "blocks/o-z16-b9970-5448.jpg",
+      "tier": "overview",
+      "bytes": 249992,
+      "sha256": "53fd45b0db4461db969ddff242d2828ef1d13181fe1a22910897c9dc797f21c0",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.495064730143696,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9971-5448",
+      "file": "blocks/o-z16-b9971-5448.jpg",
+      "tier": "overview",
+      "bytes": 311060,
+      "sha256": "2fca1d9a24c65f49cc10d26729e72b3b321f70f458c3566598b3c615943e4044",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.495064730143696,
+        "maxLon": 39.111328125,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "o-z16-b9947-5449",
+      "file": "blocks/o-z16-b9947-5449.jpg",
+      "tier": "overview",
+      "bytes": 245289,
+      "sha256": "cb2c75aadb07ca912325a8e92ae81dba3347e27048e64fe4c7f3a52d7b2a345f",
+      "bounds": {
+        "minLon": 38.56201171875,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.583984375,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9948-5449",
+      "file": "blocks/o-z16-b9948-5449.jpg",
+      "tier": "overview",
+      "bytes": 245159,
+      "sha256": "a583a058632c2adbb128d33b4c42a2480514657f6ed6443951b0bd89a1c6b2fb",
+      "bounds": {
+        "minLon": 38.583984375,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.60595703125,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9949-5449",
+      "file": "blocks/o-z16-b9949-5449.jpg",
+      "tier": "overview",
+      "bytes": 135300,
+      "sha256": "6e650f146eba52275fcc94f441f25f2f63fe1ec02d66ddee127aa9a8967523fd",
+      "bounds": {
+        "minLon": 38.60595703125,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.6279296875,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9950-5449",
+      "file": "blocks/o-z16-b9950-5449.jpg",
+      "tier": "overview",
+      "bytes": 213662,
+      "sha256": "4b651af515946cfe7f2b8960e408cbd97395a0cf24d149162fd432f3f2a57cca",
+      "bounds": {
+        "minLon": 38.6279296875,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.64990234375,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9951-5449",
+      "file": "blocks/o-z16-b9951-5449.jpg",
+      "tier": "overview",
+      "bytes": 212628,
+      "sha256": "72a29dc92bcb0c8e9671e221e53e5ff67fe2000d6b7583c15c7b682d57876d00",
+      "bounds": {
+        "minLon": 38.64990234375,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.671875,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9952-5449",
+      "file": "blocks/o-z16-b9952-5449.jpg",
+      "tier": "overview",
+      "bytes": 202864,
+      "sha256": "08674f1b7e067963c2420bcf9a713774b4d47a59ab67aca487d61e62f6ff97f9",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9953-5449",
+      "file": "blocks/o-z16-b9953-5449.jpg",
+      "tier": "overview",
+      "bytes": 226047,
+      "sha256": "22c2a8549522a3032b86bfa3692bcb2c86ca01a96a7a3bcce0cd6bffdb81ef88",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9954-5449",
+      "file": "blocks/o-z16-b9954-5449.jpg",
+      "tier": "overview",
+      "bytes": 268490,
+      "sha256": "c99fce0313af8858041a0ace8c78390825caba3d0d6904b467172e284ed16f48",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9955-5449",
+      "file": "blocks/o-z16-b9955-5449.jpg",
+      "tier": "overview",
+      "bytes": 259817,
+      "sha256": "6fe429d326772650c9c9d446be7dfa69a82846210486e3d0bd4c1efe748596a9",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.759765625,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9956-5449",
+      "file": "blocks/o-z16-b9956-5449.jpg",
+      "tier": "overview",
+      "bytes": 191361,
+      "sha256": "c5e673d207777fef60b97496d19b15a4b77e97eed58b0edc7302ed73284d4d2c",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9957-5449",
+      "file": "blocks/o-z16-b9957-5449.jpg",
+      "tier": "overview",
+      "bytes": 199571,
+      "sha256": "dcf3a4a8dc2623d9f442126168f8062ee638fefa57125b1361b0dc0694db2070",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9958-5449",
+      "file": "blocks/o-z16-b9958-5449.jpg",
+      "tier": "overview",
+      "bytes": 205656,
+      "sha256": "321323d3ecdb2d621313f7b41a53247978228577c9b2a9917d9e5f6cb923a880",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9959-5449",
+      "file": "blocks/o-z16-b9959-5449.jpg",
+      "tier": "overview",
+      "bytes": 219535,
+      "sha256": "b276a9e21bf1c4f55520d4ec64c86b79695d7d27caf8574e15388ff12932d6cb",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.84765625,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9960-5449",
+      "file": "blocks/o-z16-b9960-5449.jpg",
+      "tier": "overview",
+      "bytes": 224311,
+      "sha256": "56bcb912cbf00fad0ac94b1ee46dd11625a3d35f6e5da54f6c1eacf3a463f964",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9961-5449",
+      "file": "blocks/o-z16-b9961-5449.jpg",
+      "tier": "overview",
+      "bytes": 155371,
+      "sha256": "a70cee4ca11a3c932065475ac6ed081dbde4e76d542c92a70bfbb900ee76bc7f",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9962-5449",
+      "file": "blocks/o-z16-b9962-5449.jpg",
+      "tier": "overview",
+      "bytes": 193054,
+      "sha256": "1146d210bf8ec0cdcf8aad5f86bf0a7c078cc5c84bc530b5e8a53be4b9dafcd3",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.495064730143696
       }
     },
     {
@@ -653,6 +3032,188 @@
       }
     },
     {
+      "id": "o-z16-b9970-5449",
+      "file": "blocks/o-z16-b9970-5449.jpg",
+      "tier": "overview",
+      "bytes": 210865,
+      "sha256": "ae2e0547b65b07da8d96be9d7ad8b7b34746ea1db6e512468b4dd2d4b246e6f9",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.481382896100975,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "o-z16-b9949-5450",
+      "file": "blocks/o-z16-b9949-5450.jpg",
+      "tier": "overview",
+      "bytes": 189527,
+      "sha256": "ed7fd2a42e807a345271b8e026280168c15d61bedc5a27c9e38cd8d4b8a17d73",
+      "bounds": {
+        "minLon": 38.60595703125,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.6279296875,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9950-5450",
+      "file": "blocks/o-z16-b9950-5450.jpg",
+      "tier": "overview",
+      "bytes": 208339,
+      "sha256": "63ae0deedff4f338e48e91827dbf2f098b6d6f76e76519a9127a49defbd83749",
+      "bounds": {
+        "minLon": 38.6279296875,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.64990234375,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9951-5450",
+      "file": "blocks/o-z16-b9951-5450.jpg",
+      "tier": "overview",
+      "bytes": 213133,
+      "sha256": "e8f9e6045f84f9415cf729777abac0e3b57f18b89ab45171ff5c2cb8a3d2f6da",
+      "bounds": {
+        "minLon": 38.64990234375,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.671875,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9952-5450",
+      "file": "blocks/o-z16-b9952-5450.jpg",
+      "tier": "overview",
+      "bytes": 234189,
+      "sha256": "da9b884fb6fe313d0f244452bca6bdad67cd441e4b4f0815c8415bf04c085501",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9953-5450",
+      "file": "blocks/o-z16-b9953-5450.jpg",
+      "tier": "overview",
+      "bytes": 237436,
+      "sha256": "23e1fe174ec3b38e5d37c5815bbff64b100410b1e303ca76b1151eee64e832b7",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9954-5450",
+      "file": "blocks/o-z16-b9954-5450.jpg",
+      "tier": "overview",
+      "bytes": 281475,
+      "sha256": "1bb0345824247cb1a4cb77151d0f4f272bf2a8472e57d84e861a0b5da202349c",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9955-5450",
+      "file": "blocks/o-z16-b9955-5450.jpg",
+      "tier": "overview",
+      "bytes": 192712,
+      "sha256": "f7569ad2677a29596c3541d9c670ca3ba1dadee7b6d456e5d13871fed0ce2b3a",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.759765625,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9956-5450",
+      "file": "blocks/o-z16-b9956-5450.jpg",
+      "tier": "overview",
+      "bytes": 210396,
+      "sha256": "fd57d534dd8963690fcc162d0a37d6d261ec3d447dc77b1240070980b5d61f40",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9957-5450",
+      "file": "blocks/o-z16-b9957-5450.jpg",
+      "tier": "overview",
+      "bytes": 224477,
+      "sha256": "de2653bccc68679ed0bde4101e0625e1a1eb4a579d5ebfedb2f5e9cc6a0b0101",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9958-5450",
+      "file": "blocks/o-z16-b9958-5450.jpg",
+      "tier": "overview",
+      "bytes": 235441,
+      "sha256": "ce8d72f6a597c6b8d0ff7feda915f95bf9bcfb7b5ac13b72a413301836d6a213",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9959-5450",
+      "file": "blocks/o-z16-b9959-5450.jpg",
+      "tier": "overview",
+      "bytes": 219291,
+      "sha256": "893d58f715df419120f304a7204dbb3f2af437a63a47aa2be26068cac3e5b3bb",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.84765625,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9960-5450",
+      "file": "blocks/o-z16-b9960-5450.jpg",
+      "tier": "overview",
+      "bytes": 219376,
+      "sha256": "7801c98bbf2d0e85be838e638b54f90e287b1a4beeac22c099575a77c6b4ea0a",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9961-5450",
+      "file": "blocks/o-z16-b9961-5450.jpg",
+      "tier": "overview",
+      "bytes": 193889,
+      "sha256": "aca125b7b36a4c2095e053541fa56fed08182fc5b202b20bf750625fbf42bd5e",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
       "id": "o-z16-b9962-5450",
       "file": "blocks/o-z16-b9962-5450.jpg",
       "tier": "overview",
@@ -718,6 +3279,19 @@
       }
     },
     {
+      "id": "o-z16-b9967-5450",
+      "file": "blocks/o-z16-b9967-5450.jpg",
+      "tier": "overview",
+      "bytes": 326878,
+      "sha256": "b6603397faf3af641070775c92cec25f70c55aefd8e0eedd0b2383181deb1b14",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.467696956223364,
+        "maxLon": 39.0234375,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
       "id": "o-z16-b9968-5450",
       "file": "blocks/o-z16-b9968-5450.jpg",
       "tier": "overview",
@@ -728,6 +3302,175 @@
         "minLat": 51.467696956223364,
         "maxLon": 39.04541015625,
         "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9969-5450",
+      "file": "blocks/o-z16-b9969-5450.jpg",
+      "tier": "overview",
+      "bytes": 226732,
+      "sha256": "b217aeace4b842922183a67f05448fe10ffd564645a6ecbb1d684daf72b1a1ec",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.467696956223364,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9970-5450",
+      "file": "blocks/o-z16-b9970-5450.jpg",
+      "tier": "overview",
+      "bytes": 260047,
+      "sha256": "a51c48e1ff543087fbbcee597526942ebf25f5dd5a9ab29ea690b5e462f6748d",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.467696956223364,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "o-z16-b9952-5451",
+      "file": "blocks/o-z16-b9952-5451.jpg",
+      "tier": "overview",
+      "bytes": 240210,
+      "sha256": "d3cf9270f5e7ef48a861c15abf838cb453a02a471f4b3be1de4d2744ddac5b47",
+      "bounds": {
+        "minLon": 38.671875,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.69384765625,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9953-5451",
+      "file": "blocks/o-z16-b9953-5451.jpg",
+      "tier": "overview",
+      "bytes": 291473,
+      "sha256": "dba729c2d9165ad0132a5650e04f7c60a6e96e7eef0ac3c8ac482d151aa86a3f",
+      "bounds": {
+        "minLon": 38.69384765625,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.7158203125,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9954-5451",
+      "file": "blocks/o-z16-b9954-5451.jpg",
+      "tier": "overview",
+      "bytes": 254915,
+      "sha256": "1299f5531df6205257ae5bf2f563f4c847d54af49ca71d3a33d9f5b12ee2dd7b",
+      "bounds": {
+        "minLon": 38.7158203125,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.73779296875,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9955-5451",
+      "file": "blocks/o-z16-b9955-5451.jpg",
+      "tier": "overview",
+      "bytes": 284920,
+      "sha256": "252d40b5e06b78881f5f694cada9dc4d094380fd21fe8f86cef28081b0fe0ac4",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.759765625,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9956-5451",
+      "file": "blocks/o-z16-b9956-5451.jpg",
+      "tier": "overview",
+      "bytes": 247000,
+      "sha256": "37c4edd88ba49a396dbf870edaa18adbba93d4ed119480f36c589a810b2145d0",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9957-5451",
+      "file": "blocks/o-z16-b9957-5451.jpg",
+      "tier": "overview",
+      "bytes": 252384,
+      "sha256": "7d58ab28694245a48c82039d36694225ab3055283aa7349a9bfe281413972bb5",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9958-5451",
+      "file": "blocks/o-z16-b9958-5451.jpg",
+      "tier": "overview",
+      "bytes": 254582,
+      "sha256": "d9c3575252ffdc6100e684317d918a50f54fe01e97aa14547af932dfe78d5b1f",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9959-5451",
+      "file": "blocks/o-z16-b9959-5451.jpg",
+      "tier": "overview",
+      "bytes": 196867,
+      "sha256": "13652e0e946d2df3ca0606c1db54d3dbe5a951618542ed6f57336f65bfac2a2d",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.84765625,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9960-5451",
+      "file": "blocks/o-z16-b9960-5451.jpg",
+      "tier": "overview",
+      "bytes": 189256,
+      "sha256": "23639e663afac3a5bca5d50860bcda1263dbda74cc8aab633d3135299e4847b9",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9961-5451",
+      "file": "blocks/o-z16-b9961-5451.jpg",
+      "tier": "overview",
+      "bytes": 188307,
+      "sha256": "ec479867e8d72c63dac1a4a04248a2b598da699b8cb55eee924d8db739dab9da",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9962-5451",
+      "file": "blocks/o-z16-b9962-5451.jpg",
+      "tier": "overview",
+      "bytes": 235465,
+      "sha256": "2e74d4042e07d9a75f0edb0743778ea0eec79e7053424791840c01f2566cdbda",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.467696956223364
       }
     },
     {
@@ -754,6 +3497,149 @@
         "minLat": 51.45400691005982,
         "maxLon": 38.95751953125,
         "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9965-5451",
+      "file": "blocks/o-z16-b9965-5451.jpg",
+      "tier": "overview",
+      "bytes": 188508,
+      "sha256": "ee556bb9c73e7b54cf68e14d8c46c3b59790923f44f711ba4d605cf5465c58db",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9966-5451",
+      "file": "blocks/o-z16-b9966-5451.jpg",
+      "tier": "overview",
+      "bytes": 287261,
+      "sha256": "1b80c910c96983014375034d2051dd7543fefc71330ef6ed331d7c4c8e696590",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.45400691005982,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9967-5451",
+      "file": "blocks/o-z16-b9967-5451.jpg",
+      "tier": "overview",
+      "bytes": 316277,
+      "sha256": "2d31bee354b8ed7c6bcd1e9993eaa967c3ec34d2f5f18f68371b4ba20d9c9a1e",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.45400691005982,
+        "maxLon": 39.0234375,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9968-5451",
+      "file": "blocks/o-z16-b9968-5451.jpg",
+      "tier": "overview",
+      "bytes": 252894,
+      "sha256": "fd1989ad4d80b757fb4b69b4da84a99978848d673d3813f9673866804f9b6167",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.45400691005982,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9969-5451",
+      "file": "blocks/o-z16-b9969-5451.jpg",
+      "tier": "overview",
+      "bytes": 193388,
+      "sha256": "ee42155739a8b21f9ec2f13276e58bcf6b2507af514afe4e0811f8f3f36646ac",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.45400691005982,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "o-z16-b9955-5452",
+      "file": "blocks/o-z16-b9955-5452.jpg",
+      "tier": "overview",
+      "bytes": 274087,
+      "sha256": "cf7309930971b11d88ecb51ae065b7f293d5e65bf17a8f5284d77fd1cdf3e680",
+      "bounds": {
+        "minLon": 38.73779296875,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.759765625,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9956-5452",
+      "file": "blocks/o-z16-b9956-5452.jpg",
+      "tier": "overview",
+      "bytes": 212715,
+      "sha256": "66efdfb8b73d76105053758838e34f81a1a47bf92ca3f48e1a92f0c707ffade8",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9957-5452",
+      "file": "blocks/o-z16-b9957-5452.jpg",
+      "tier": "overview",
+      "bytes": 252553,
+      "sha256": "1e6658cab27e83b1f867e13abe40ecd35d387f8894ef61876fed8a8856023e03",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9958-5452",
+      "file": "blocks/o-z16-b9958-5452.jpg",
+      "tier": "overview",
+      "bytes": 224783,
+      "sha256": "e273af96b14198b59926e4f8b28d9362cbe13cbe655b2707302fdab4cc2efdcd",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9959-5452",
+      "file": "blocks/o-z16-b9959-5452.jpg",
+      "tier": "overview",
+      "bytes": 168516,
+      "sha256": "d563ae83a4058dbdba0be6486cc84bfd625ff855b83a49e2c1462fb3211a7609",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.84765625,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9960-5452",
+      "file": "blocks/o-z16-b9960-5452.jpg",
+      "tier": "overview",
+      "bytes": 153303,
+      "sha256": "29042f95588999d1f8e7a47d9070d54484925592a7b5eb298f31b52cb3fc53cf",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.45400691005982
       }
     },
     {
@@ -796,6 +3682,97 @@
       }
     },
     {
+      "id": "o-z16-b9964-5452",
+      "file": "blocks/o-z16-b9964-5452.jpg",
+      "tier": "overview",
+      "bytes": 170899,
+      "sha256": "08833ee4dba3ef7a57db202ce8ccbc206af9042ab6c17d1abef31492bdc5bb93",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9965-5452",
+      "file": "blocks/o-z16-b9965-5452.jpg",
+      "tier": "overview",
+      "bytes": 199403,
+      "sha256": "5a331e46a442931c1cfe1470dbda04516bad03d57850d8f42764cae8c1bba04d",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9966-5452",
+      "file": "blocks/o-z16-b9966-5452.jpg",
+      "tier": "overview",
+      "bytes": 233129,
+      "sha256": "991f91bbcb50e87d5845c13b660df0b882fc305b8731adafcac66e85fcee7501",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.44031275716011,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9967-5452",
+      "file": "blocks/o-z16-b9967-5452.jpg",
+      "tier": "overview",
+      "bytes": 254102,
+      "sha256": "b05738d53fddd5ab60bc098b853ddbc24e178a6d0bc18bc55ba4d42eb43ad0c1",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.44031275716011,
+        "maxLon": 39.0234375,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "o-z16-b9958-5453",
+      "file": "blocks/o-z16-b9958-5453.jpg",
+      "tier": "overview",
+      "bytes": 166821,
+      "sha256": "ad0ec6b991d1e8454c43c200b723fd876a6f2994c41868470641ebb651a218af",
+      "bounds": {
+        "minLon": 38.8037109375,
+        "minLat": 51.42661449707482,
+        "maxLon": 38.82568359375,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "o-z16-b9959-5453",
+      "file": "blocks/o-z16-b9959-5453.jpg",
+      "tier": "overview",
+      "bytes": 140581,
+      "sha256": "23232c9cb07e27d5738134f2247b71379c920a7276eced44d67af90205289144",
+      "bounds": {
+        "minLon": 38.82568359375,
+        "minLat": 51.42661449707482,
+        "maxLon": 38.84765625,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "o-z16-b9960-5453",
+      "file": "blocks/o-z16-b9960-5453.jpg",
+      "tier": "overview",
+      "bytes": 208212,
+      "sha256": "b252a890617a477743b3e3846b5ca5b212dcb0584de0741a94b6a7a4df414cab",
+      "bounds": {
+        "minLon": 38.84765625,
+        "minLat": 51.42661449707482,
+        "maxLon": 38.86962890625,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
       "id": "o-z16-b9961-5453",
       "file": "blocks/o-z16-b9961-5453.jpg",
       "tier": "overview",
@@ -819,6 +3796,136 @@
         "minLat": 51.42661449707482,
         "maxLon": 38.91357421875,
         "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "o-z16-b9963-5453",
+      "file": "blocks/o-z16-b9963-5453.jpg",
+      "tier": "overview",
+      "bytes": 230146,
+      "sha256": "21c2eda8d164ac159090498249e0e02dd5a1a9751742fece01803dc87ad9a85a",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.42661449707482,
+        "maxLon": 38.935546875,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "o-z16-b9964-5453",
+      "file": "blocks/o-z16-b9964-5453.jpg",
+      "tier": "overview",
+      "bytes": 224143,
+      "sha256": "2b4a7f5311ee99fd3f534c87000a40af03edb9363c3293b12bc1ab057b0fb5d1",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.42661449707482,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "o-z16-b9965-5453",
+      "file": "blocks/o-z16-b9965-5453.jpg",
+      "tier": "overview",
+      "bytes": 214555,
+      "sha256": "bb11b8e2ca8d87e60f9092409dd51a0112219771eeb4064b7aa72a4754034bc4",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.42661449707482,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "o-z16-b9961-5454",
+      "file": "blocks/o-z16-b9961-5454.jpg",
+      "tier": "overview",
+      "bytes": 289178,
+      "sha256": "ff68183e6def48a14a144dc2f33ec17a46ffe63e3bbb620b58c10d1108e07fd3",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.412912129355306,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.42661449707482
+      }
+    },
+    {
+      "id": "o-z16-b9962-5454",
+      "file": "blocks/o-z16-b9962-5454.jpg",
+      "tier": "overview",
+      "bytes": 298663,
+      "sha256": "74f0ea6ee1d17f6b4aa46d53817113dacc2ccfd2d8a81828eedb001565a36978",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.412912129355306,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.42661449707482
+      }
+    },
+    {
+      "id": "d-z17-b19930-10876",
+      "file": "blocks/d-z17-b19930-10876.jpg",
+      "tier": "detail",
+      "bytes": 288559,
+      "sha256": "e7722cdd3aabab951bc784622d419b18839361b47f2fc77464a18803ddc4e24a",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.63847621195153,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "d-z17-b19931-10876",
+      "file": "blocks/d-z17-b19931-10876.jpg",
+      "tier": "detail",
+      "bytes": 328902,
+      "sha256": "1bada7cc5fcccd946d3f2d2106d597b8bc48b2b11f8ba1818d1c4ec24dd75cce",
+      "bounds": {
+        "minLon": 38.968505859375,
+        "minLat": 51.63847621195153,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "d-z17-b19932-10876",
+      "file": "blocks/d-z17-b19932-10876.jpg",
+      "tier": "detail",
+      "bytes": 292772,
+      "sha256": "d1cbfaa93ba033ce60d3863ef6117222af0aaf7cef2cf7b9cf4c2f40ed3476d1",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.63847621195153,
+        "maxLon": 38.990478515625,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "d-z17-b19933-10876",
+      "file": "blocks/d-z17-b19933-10876.jpg",
+      "tier": "detail",
+      "bytes": 286180,
+      "sha256": "3689fa729b054fd4951a7fafd11f516e09b328072dd8c0a493c37393d769b8e0",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.63847621195153,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.64529404930539
+      }
+    },
+    {
+      "id": "d-z17-b19930-10877",
+      "file": "blocks/d-z17-b19930-10877.jpg",
+      "tier": "detail",
+      "bytes": 213090,
+      "sha256": "811b07a33f7848a3dac3e99b4857c554490cace38cbf697246ea3597bf3ac112",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.63165734944998,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.63847621195153
       }
     },
     {
@@ -861,6 +3968,32 @@
       }
     },
     {
+      "id": "d-z17-b19934-10877",
+      "file": "blocks/d-z17-b19934-10877.jpg",
+      "tier": "detail",
+      "bytes": 274780,
+      "sha256": "b4897bc40db9833f671e88b694d0a8cb0dffc5ad95ea6cedcf5b77adea06a78c",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.63165734944998,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.63847621195153
+      }
+    },
+    {
+      "id": "d-z17-b19930-10878",
+      "file": "blocks/d-z17-b19930-10878.jpg",
+      "tier": "detail",
+      "bytes": 275395,
+      "sha256": "c1218eef3e56a8baec8fab922e35790ed71647bc8afeb8d2673679fd8e4c98be",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.624837461743205,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
       "id": "d-z17-b19931-10878",
       "file": "blocks/d-z17-b19931-10878.jpg",
       "tier": "detail",
@@ -900,6 +4033,123 @@
       }
     },
     {
+      "id": "d-z17-b19934-10878",
+      "file": "blocks/d-z17-b19934-10878.jpg",
+      "tier": "detail",
+      "bytes": 185207,
+      "sha256": "ebc2f1e23b83fb5866abd8199ea596a6360cbba326c2a4af71be62c9adb2d1f9",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.624837461743205,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.63165734944998
+      }
+    },
+    {
+      "id": "d-z17-b19930-10879",
+      "file": "blocks/d-z17-b19930-10879.jpg",
+      "tier": "detail",
+      "bytes": 314595,
+      "sha256": "f24756aacf81f1f21d782a315504e88d2a6f09d0509896200c26438a1a484197",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.624837461743205
+      }
+    },
+    {
+      "id": "d-z17-b19931-10879",
+      "file": "blocks/d-z17-b19931-10879.jpg",
+      "tier": "detail",
+      "bytes": 220249,
+      "sha256": "47a59c805461a1ca52bdadb9ff10877ab9f14d74ee4de83aca1b97ce5d2abab5",
+      "bounds": {
+        "minLon": 38.968505859375,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.624837461743205
+      }
+    },
+    {
+      "id": "d-z17-b19932-10879",
+      "file": "blocks/d-z17-b19932-10879.jpg",
+      "tier": "detail",
+      "bytes": 280939,
+      "sha256": "44e501c13968362b4773b1fd1941cb82bd22a4ba870c95d042f1ffb738fcb303",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.618016548773696,
+        "maxLon": 38.990478515625,
+        "maxLat": 51.624837461743205
+      }
+    },
+    {
+      "id": "d-z17-b19933-10879",
+      "file": "blocks/d-z17-b19933-10879.jpg",
+      "tier": "detail",
+      "bytes": 284045,
+      "sha256": "64f990dd0286de9962cccfc2ffc2958847ab6486ec43df35d3a50c6fd3bf5ade",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.618016548773696,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.624837461743205
+      }
+    },
+    {
+      "id": "d-z17-b19934-10879",
+      "file": "blocks/d-z17-b19934-10879.jpg",
+      "tier": "detail",
+      "bytes": 216275,
+      "sha256": "11b2b8733d40e2e309a8f851a33a62817866b13d41d0c7444e376f7a6ee32bca",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.618016548773696,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.624837461743205
+      }
+    },
+    {
+      "id": "d-z17-b19930-10881",
+      "file": "blocks/d-z17-b19930-10881.jpg",
+      "tier": "detail",
+      "bytes": 119852,
+      "sha256": "644637cfd81324e4be742d7898bfb15b774997f29c947cb7959b1e810c34fe49",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.61119461048402
+      }
+    },
+    {
+      "id": "d-z17-b19931-10881",
+      "file": "blocks/d-z17-b19931-10881.jpg",
+      "tier": "detail",
+      "bytes": 223417,
+      "sha256": "74d8ca2b16007a64aed5c18fefb38efba2637ef5591e085556e5d4ee1787eac2",
+      "bounds": {
+        "minLon": 38.968505859375,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.61119461048402
+      }
+    },
+    {
+      "id": "d-z17-b19932-10881",
+      "file": "blocks/d-z17-b19932-10881.jpg",
+      "tier": "detail",
+      "bytes": 281431,
+      "sha256": "f963eeab882d163635100f0052bfba0bee8392ebc3a943f56281656f0a97125b",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.60437164681676,
+        "maxLon": 38.990478515625,
+        "maxLat": 51.61119461048402
+      }
+    },
+    {
       "id": "d-z17-b19930-10882",
       "file": "blocks/d-z17-b19930-10882.jpg",
       "tier": "detail",
@@ -922,6 +4172,32 @@
         "minLon": 38.968505859375,
         "minLat": 51.59754765771457,
         "maxLon": 38.9794921875,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "d-z17-b19932-10882",
+      "file": "blocks/d-z17-b19932-10882.jpg",
+      "tier": "detail",
+      "bytes": 275701,
+      "sha256": "6c05a839cdb4d1807b427ce222aba4aff869591326dce6fe2d9840efdc754c60",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.59754765771457,
+        "maxLon": 38.990478515625,
+        "maxLat": 51.60437164681676
+      }
+    },
+    {
+      "id": "d-z17-b19933-10882",
+      "file": "blocks/d-z17-b19933-10882.jpg",
+      "tier": "detail",
+      "bytes": 311789,
+      "sha256": "9a008cf9b0eab462db9399217ead32e8d44ceaca6bf7c1a5d88674ac6acadc0e",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.59754765771457,
+        "maxLon": 39.00146484375,
         "maxLat": 51.60437164681676
       }
     },
@@ -965,6 +4241,32 @@
       }
     },
     {
+      "id": "d-z17-b19933-10883",
+      "file": "blocks/d-z17-b19933-10883.jpg",
+      "tier": "detail",
+      "bytes": 304627,
+      "sha256": "7878808f2de4c5ef11dd89b27a84c4938f497bf08ac8032368638974bc1b68a5",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.590722643120145,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.59754765771457
+      }
+    },
+    {
+      "id": "d-z17-b19930-10884",
+      "file": "blocks/d-z17-b19930-10884.jpg",
+      "tier": "detail",
+      "bytes": 224092,
+      "sha256": "57a83c9339622f249e7ad4b986b90e25d1e12cecf7368d45a706830ebd71c5d8",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.583896602976246,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
       "id": "d-z17-b19931-10884",
       "file": "blocks/d-z17-b19931-10884.jpg",
       "tier": "detail",
@@ -988,6 +4290,71 @@
         "minLat": 51.583896602976246,
         "maxLon": 38.990478515625,
         "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "d-z17-b19933-10884",
+      "file": "blocks/d-z17-b19933-10884.jpg",
+      "tier": "detail",
+      "bytes": 314754,
+      "sha256": "d2c1da97b377cf45ab51bac65ca38b3753a89d46b4d6614a640f0a671192b1ea",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.583896602976246,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.590722643120145
+      }
+    },
+    {
+      "id": "d-z17-b19912-10888",
+      "file": "blocks/d-z17-b19912-10888.jpg",
+      "tier": "detail",
+      "bytes": 272087,
+      "sha256": "b3f91d0b76a698dfff303af71b9ee49e0f466f4e8125e460e00b3ea13af3791c",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.55658218576253,
+        "maxLon": 38.770751953125,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "d-z17-b19913-10888",
+      "file": "blocks/d-z17-b19913-10888.jpg",
+      "tier": "detail",
+      "bytes": 298233,
+      "sha256": "2509799a4215ebc3463768a456dfe0c0a43435048e0b0cbdc25cc0058270cd2b",
+      "bounds": {
+        "minLon": 38.770751953125,
+        "minLat": 51.55658218576253,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "d-z17-b19914-10888",
+      "file": "blocks/d-z17-b19914-10888.jpg",
+      "tier": "detail",
+      "bytes": 301104,
+      "sha256": "11d7f3813cd48ef07899b01538d551e2afb13fb1e12c1c5de1037a2175b06dbb",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.55658218576253,
+        "maxLon": 38.792724609375,
+        "maxLat": 51.56341232867588
+      }
+    },
+    {
+      "id": "d-z17-b19911-10889",
+      "file": "blocks/d-z17-b19911-10889.jpg",
+      "tier": "detail",
+      "bytes": 258210,
+      "sha256": "74ff923c8f9685f4d7755d9e7ec90fd56dcde89629de5906cfe33e2d010cb6e0",
+      "bounds": {
+        "minLon": 38.748779296875,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.759765625,
+        "maxLat": 51.55658218576253
       }
     },
     {
@@ -1030,6 +4397,110 @@
       }
     },
     {
+      "id": "d-z17-b19915-10889",
+      "file": "blocks/d-z17-b19915-10889.jpg",
+      "tier": "detail",
+      "bytes": 223071,
+      "sha256": "869e11996c8e87a0ceb30b81a02b8042d6bdc7c7bc95ebdb5a4db12e52bbcb12",
+      "bounds": {
+        "minLon": 38.792724609375,
+        "minLat": 51.549751017014174,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.55658218576253
+      }
+    },
+    {
+      "id": "d-z17-b19934-10889",
+      "file": "blocks/d-z17-b19934-10889.jpg",
+      "tier": "detail",
+      "bytes": 237019,
+      "sha256": "38d60b147a128a6d495d1a4bab0790ef7a0ba914da9c825422189925b077a3e4",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.55658218576253
+      }
+    },
+    {
+      "id": "d-z17-b19935-10889",
+      "file": "blocks/d-z17-b19935-10889.jpg",
+      "tier": "detail",
+      "bytes": 262790,
+      "sha256": "431a6de370300c467449cce0ca688424d62403aa454ed34a099a8d906d24af6f",
+      "bounds": {
+        "minLon": 39.012451171875,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.0234375,
+        "maxLat": 51.55658218576253
+      }
+    },
+    {
+      "id": "d-z17-b19936-10889",
+      "file": "blocks/d-z17-b19936-10889.jpg",
+      "tier": "detail",
+      "bytes": 224326,
+      "sha256": "52c74ab431981152e35cb511a753967a9168c7dd72e6ec408e686e32f42c1ade",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.034423828125,
+        "maxLat": 51.55658218576253
+      }
+    },
+    {
+      "id": "d-z17-b19938-10889",
+      "file": "blocks/d-z17-b19938-10889.jpg",
+      "tier": "detail",
+      "bytes": 231151,
+      "sha256": "2beb8dd3eb81219295fd5f138bde9656e9c2e47a4ae8a3190453c656d091adea",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.056396484375,
+        "maxLat": 51.55658218576253
+      }
+    },
+    {
+      "id": "d-z17-b19939-10889",
+      "file": "blocks/d-z17-b19939-10889.jpg",
+      "tier": "detail",
+      "bytes": 271347,
+      "sha256": "01d6de20851c106df95d4a75e945585087b023dcdf893dfa9142096442b2d5f6",
+      "bounds": {
+        "minLon": 39.056396484375,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.55658218576253
+      }
+    },
+    {
+      "id": "d-z17-b19940-10889",
+      "file": "blocks/d-z17-b19940-10889.jpg",
+      "tier": "detail",
+      "bytes": 323596,
+      "sha256": "823bb35f7aff77603130843c368c5c7b30d484326f23ca6acd897600ba6115e7",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.549751017014174,
+        "maxLon": 39.078369140625,
+        "maxLat": 51.55658218576253
+      }
+    },
+    {
+      "id": "d-z17-b19911-10890",
+      "file": "blocks/d-z17-b19911-10890.jpg",
+      "tier": "detail",
+      "bytes": 283153,
+      "sha256": "d1dc332b4148720fb87cbde4bec464ac48eaba4b9f0b72242d71a8fd298527be",
+      "bounds": {
+        "minLon": 38.748779296875,
+        "minLat": 51.542918822373885,
+        "maxLon": 38.759765625,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
       "id": "d-z17-b19912-10890",
       "file": "blocks/d-z17-b19912-10890.jpg",
       "tier": "detail",
@@ -1065,6 +4536,45 @@
         "minLon": 38.78173828125,
         "minLat": 51.542918822373885,
         "maxLon": 38.792724609375,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "d-z17-b19915-10890",
+      "file": "blocks/d-z17-b19915-10890.jpg",
+      "tier": "detail",
+      "bytes": 222929,
+      "sha256": "a62b4f7d915d2b02f5f8ffda0240c38a22593793b9b99c95d0588c4b2599699e",
+      "bounds": {
+        "minLon": 38.792724609375,
+        "minLat": 51.542918822373885,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "d-z17-b19932-10890",
+      "file": "blocks/d-z17-b19932-10890.jpg",
+      "tier": "detail",
+      "bytes": 184583,
+      "sha256": "a39023d9ba67da23000f87daa0d9832d96aaa19763b9121e082d3d94285dfa8e",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.542918822373885,
+        "maxLon": 38.990478515625,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "d-z17-b19933-10890",
+      "file": "blocks/d-z17-b19933-10890.jpg",
+      "tier": "detail",
+      "bytes": 225587,
+      "sha256": "a1d3be2d7f3887cf3899fc54f3e5b8c041e517b344b37f8be87aced20db2ba45",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.542918822373885,
+        "maxLon": 39.00146484375,
         "maxLat": 51.549751017014174
       }
     },
@@ -1108,6 +4618,19 @@
       }
     },
     {
+      "id": "d-z17-b19937-10890",
+      "file": "blocks/d-z17-b19937-10890.jpg",
+      "tier": "detail",
+      "bytes": 226186,
+      "sha256": "ab39549fe026fc7a291818bcc364cf312497c701ff4996dcd24994691a9cdc60",
+      "bounds": {
+        "minLon": 39.034423828125,
+        "minLat": 51.542918822373885,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
       "id": "d-z17-b19938-10890",
       "file": "blocks/d-z17-b19938-10890.jpg",
       "tier": "detail",
@@ -1147,6 +4670,32 @@
       }
     },
     {
+      "id": "d-z17-b19941-10890",
+      "file": "blocks/d-z17-b19941-10890.jpg",
+      "tier": "detail",
+      "bytes": 242768,
+      "sha256": "d5066ea53d3e43198d259a2f2b7368d9365a9aa2068aedf7731aa7fb80b3ecc0",
+      "bounds": {
+        "minLon": 39.078369140625,
+        "minLat": 51.542918822373885,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.549751017014174
+      }
+    },
+    {
+      "id": "d-z17-b19911-10891",
+      "file": "blocks/d-z17-b19911-10891.jpg",
+      "tier": "detail",
+      "bytes": 228828,
+      "sha256": "66a2a2ee40eb570f2c0413e3c1adf037eb03274e16edec3c827b5042a1d1a9a5",
+      "bounds": {
+        "minLon": 38.748779296875,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.759765625,
+        "maxLat": 51.542918822373885
+      }
+    },
+    {
       "id": "d-z17-b19912-10891",
       "file": "blocks/d-z17-b19912-10891.jpg",
       "tier": "detail",
@@ -1169,6 +4718,45 @@
         "minLon": 38.770751953125,
         "minLat": 51.53608560178474,
         "maxLon": 38.78173828125,
+        "maxLat": 51.542918822373885
+      }
+    },
+    {
+      "id": "d-z17-b19914-10891",
+      "file": "blocks/d-z17-b19914-10891.jpg",
+      "tier": "detail",
+      "bytes": 208910,
+      "sha256": "13d22562ac811033daad5d4f9ca8211acd2f42a8334fa9bf86fb1d01b2412cd7",
+      "bounds": {
+        "minLon": 38.78173828125,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.792724609375,
+        "maxLat": 51.542918822373885
+      }
+    },
+    {
+      "id": "d-z17-b19915-10891",
+      "file": "blocks/d-z17-b19915-10891.jpg",
+      "tier": "detail",
+      "bytes": 169943,
+      "sha256": "a65283b21bb5f001c3d51aa9e4d4e8b5d1b1e2db3a7fd6cd4a7e20261e15af18",
+      "bounds": {
+        "minLon": 38.792724609375,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.8037109375,
+        "maxLat": 51.542918822373885
+      }
+    },
+    {
+      "id": "d-z17-b19931-10891",
+      "file": "blocks/d-z17-b19931-10891.jpg",
+      "tier": "detail",
+      "bytes": 215425,
+      "sha256": "357e2609b5fa5ae4d38f8b79713c05d7fb4735c2c836ee0edf6904a2a009efcb",
+      "bounds": {
+        "minLon": 38.968505859375,
+        "minLat": 51.53608560178474,
+        "maxLon": 38.9794921875,
         "maxLat": 51.542918822373885
       }
     },
@@ -1238,6 +4826,19 @@
       }
     },
     {
+      "id": "d-z17-b19937-10891",
+      "file": "blocks/d-z17-b19937-10891.jpg",
+      "tier": "detail",
+      "bytes": 251449,
+      "sha256": "68d87954611a8d6f79b773db5501c76d17260313de005d3674eb18095c9e953e",
+      "bounds": {
+        "minLon": 39.034423828125,
+        "minLat": 51.53608560178474,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.542918822373885
+      }
+    },
+    {
       "id": "d-z17-b19938-10891",
       "file": "blocks/d-z17-b19938-10891.jpg",
       "tier": "detail",
@@ -1287,6 +4888,71 @@
         "minLat": 51.53608560178474,
         "maxLon": 39.08935546875,
         "maxLat": 51.542918822373885
+      }
+    },
+    {
+      "id": "d-z17-b19942-10891",
+      "file": "blocks/d-z17-b19942-10891.jpg",
+      "tier": "detail",
+      "bytes": 171784,
+      "sha256": "f10f3131ea935c50713db0235149f2e295ed5c5418d8bbb643d9b3fd034aa8f7",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.53608560178474,
+        "maxLon": 39.100341796875,
+        "maxLat": 51.542918822373885
+      }
+    },
+    {
+      "id": "d-z17-b19911-10892",
+      "file": "blocks/d-z17-b19911-10892.jpg",
+      "tier": "detail",
+      "bytes": 201869,
+      "sha256": "579ad83ac0f68665998d2d5cfed0e29f90eccecfc927d842a6dbc4e0465bf545",
+      "bounds": {
+        "minLon": 38.748779296875,
+        "minLat": 51.5292513551899,
+        "maxLon": 38.759765625,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "d-z17-b19912-10892",
+      "file": "blocks/d-z17-b19912-10892.jpg",
+      "tier": "detail",
+      "bytes": 210184,
+      "sha256": "e0b16e6c2196ac31fe75be992b2572baa0c1ec88c27d1f29785ccdbcea99198e",
+      "bounds": {
+        "minLon": 38.759765625,
+        "minLat": 51.5292513551899,
+        "maxLon": 38.770751953125,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "d-z17-b19913-10892",
+      "file": "blocks/d-z17-b19913-10892.jpg",
+      "tier": "detail",
+      "bytes": 163934,
+      "sha256": "a4596094edac2de841d06702140a04539462102011cef535fab9d2634133644d",
+      "bounds": {
+        "minLon": 38.770751953125,
+        "minLat": 51.5292513551899,
+        "maxLon": 38.78173828125,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "d-z17-b19931-10892",
+      "file": "blocks/d-z17-b19931-10892.jpg",
+      "tier": "detail",
+      "bytes": 235830,
+      "sha256": "46ed0373ae0cf59777b3e6fcdc8d7375adebf600e7db4b32b87326684ac03da1",
+      "bounds": {
+        "minLon": 38.968505859375,
+        "minLat": 51.5292513551899,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.53608560178474
       }
     },
     {
@@ -1355,6 +5021,19 @@
       }
     },
     {
+      "id": "d-z17-b19937-10892",
+      "file": "blocks/d-z17-b19937-10892.jpg",
+      "tier": "detail",
+      "bytes": 314112,
+      "sha256": "ded525996ddaef0e1d4c1b12f1dc7d9537f201e85437c60c13539e8e552106b5",
+      "bounds": {
+        "minLon": 39.034423828125,
+        "minLat": 51.5292513551899,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
       "id": "d-z17-b19938-10892",
       "file": "blocks/d-z17-b19938-10892.jpg",
       "tier": "detail",
@@ -1404,6 +5083,58 @@
         "minLat": 51.5292513551899,
         "maxLon": 39.08935546875,
         "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "d-z17-b19942-10892",
+      "file": "blocks/d-z17-b19942-10892.jpg",
+      "tier": "detail",
+      "bytes": 217008,
+      "sha256": "a34cc77ecda64bada4b198458765f88ef64874b33460fd68541720faf138662d",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.5292513551899,
+        "maxLon": 39.100341796875,
+        "maxLat": 51.53608560178474
+      }
+    },
+    {
+      "id": "d-z17-b19895-10893",
+      "file": "blocks/d-z17-b19895-10893.jpg",
+      "tier": "detail",
+      "bytes": 247619,
+      "sha256": "b77ee547eb57b9104312b9f41b7bd6a5508d2c41e903765aa6e58ee57729962b",
+      "bounds": {
+        "minLon": 38.572998046875,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.583984375,
+        "maxLat": 51.5292513551899
+      }
+    },
+    {
+      "id": "d-z17-b19896-10893",
+      "file": "blocks/d-z17-b19896-10893.jpg",
+      "tier": "detail",
+      "bytes": 277476,
+      "sha256": "8c8a13a5b0d714998585e663af20eeace508193993ca7f577318a28bff7145a6",
+      "bounds": {
+        "minLon": 38.583984375,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.594970703125,
+        "maxLat": 51.5292513551899
+      }
+    },
+    {
+      "id": "d-z17-b19897-10893",
+      "file": "blocks/d-z17-b19897-10893.jpg",
+      "tier": "detail",
+      "bytes": 223678,
+      "sha256": "85f98d3a7b997faf11fee1c5d45b5fb170568315e2663a2ce40bfa99b987a5c1",
+      "bounds": {
+        "minLon": 38.594970703125,
+        "minLat": 51.52241608253254,
+        "maxLon": 38.60595703125,
+        "maxLat": 51.5292513551899
       }
     },
     {
@@ -1537,6 +5268,32 @@
       }
     },
     {
+      "id": "d-z17-b19942-10893",
+      "file": "blocks/d-z17-b19942-10893.jpg",
+      "tier": "detail",
+      "bytes": 285458,
+      "sha256": "1186f3edbf81253d1b6286a2f77075779f0ec0490728a20dd4c6f7377f902f50",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.52241608253254,
+        "maxLon": 39.100341796875,
+        "maxLat": 51.5292513551899
+      }
+    },
+    {
+      "id": "d-z17-b19894-10894",
+      "file": "blocks/d-z17-b19894-10894.jpg",
+      "tier": "detail",
+      "bytes": 289120,
+      "sha256": "2385c40b8d035e719df2427481ac15c27df709dd7e104f8fc8628fdae74988c5",
+      "bounds": {
+        "minLon": 38.56201171875,
+        "minLat": 51.51557978375592,
+        "maxLon": 38.572998046875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
       "id": "d-z17-b19895-10894",
       "file": "blocks/d-z17-b19895-10894.jpg",
       "tier": "detail",
@@ -1559,6 +5316,58 @@
         "minLon": 38.583984375,
         "minLat": 51.51557978375592,
         "maxLon": 38.594970703125,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "d-z17-b19897-10894",
+      "file": "blocks/d-z17-b19897-10894.jpg",
+      "tier": "detail",
+      "bytes": 170053,
+      "sha256": "627c4fb6ee9cc55a27691dd3429b9ed4aab2d68aeb286c62481c80026708ac6e",
+      "bounds": {
+        "minLon": 38.594970703125,
+        "minLat": 51.51557978375592,
+        "maxLon": 38.60595703125,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "d-z17-b19930-10894",
+      "file": "blocks/d-z17-b19930-10894.jpg",
+      "tier": "detail",
+      "bytes": 247509,
+      "sha256": "83b4a6f96980599b48dae70367b4dfedc33599161d5316d06d35c9203477f040",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.51557978375592,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "d-z17-b19931-10894",
+      "file": "blocks/d-z17-b19931-10894.jpg",
+      "tier": "detail",
+      "bytes": 214078,
+      "sha256": "a965741ff0fa1417dab5491dcf943943af7e8f6f9d0717b5766d3269a73e0b14",
+      "bounds": {
+        "minLon": 38.968505859375,
+        "minLat": 51.51557978375592,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "d-z17-b19932-10894",
+      "file": "blocks/d-z17-b19932-10894.jpg",
+      "tier": "detail",
+      "bytes": 218510,
+      "sha256": "f6a7c5355b566a7ef487495455df8d3c3a4fae4b0d22581fcecfad3056a6dcf7",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.51557978375592,
+        "maxLon": 38.990478515625,
         "maxLat": 51.52241608253254
       }
     },
@@ -1680,6 +5489,32 @@
       }
     },
     {
+      "id": "d-z17-b19942-10894",
+      "file": "blocks/d-z17-b19942-10894.jpg",
+      "tier": "detail",
+      "bytes": 272592,
+      "sha256": "d85d8f3d2499ed57cda3d7f4f52b3daa54d92eb8daf0136e2dc292bb70815b58",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.51557978375592,
+        "maxLon": 39.100341796875,
+        "maxLat": 51.52241608253254
+      }
+    },
+    {
+      "id": "d-z17-b19894-10895",
+      "file": "blocks/d-z17-b19894-10895.jpg",
+      "tier": "detail",
+      "bytes": 238088,
+      "sha256": "8dd8abc1b0554a393fb0b15bd781af9efe8ad183e7cd1208f1f4926ec8ce708b",
+      "bounds": {
+        "minLon": 38.56201171875,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.572998046875,
+        "maxLat": 51.51557978375592
+      }
+    },
+    {
       "id": "d-z17-b19895-10895",
       "file": "blocks/d-z17-b19895-10895.jpg",
       "tier": "detail",
@@ -1715,6 +5550,19 @@
         "minLon": 38.594970703125,
         "minLat": 51.50874245880333,
         "maxLon": 38.60595703125,
+        "maxLat": 51.51557978375592
+      }
+    },
+    {
+      "id": "d-z17-b19929-10895",
+      "file": "blocks/d-z17-b19929-10895.jpg",
+      "tier": "detail",
+      "bytes": 323953,
+      "sha256": "be1e637d24dd9b25d48dc3258caeeb81b8125837d265bfceb67508bb77bbcd0f",
+      "bounds": {
+        "minLon": 38.946533203125,
+        "minLat": 51.50874245880333,
+        "maxLon": 38.95751953125,
         "maxLat": 51.51557978375592
       }
     },
@@ -1875,6 +5723,32 @@
       }
     },
     {
+      "id": "d-z17-b19942-10895",
+      "file": "blocks/d-z17-b19942-10895.jpg",
+      "tier": "detail",
+      "bytes": 294427,
+      "sha256": "eabaf4f538c81dc66ad0113e8823d04d279df5790ba85974d0565636d30f0888",
+      "bounds": {
+        "minLon": 39.08935546875,
+        "minLat": 51.50874245880333,
+        "maxLon": 39.100341796875,
+        "maxLat": 51.51557978375592
+      }
+    },
+    {
+      "id": "d-z17-b19894-10896",
+      "file": "blocks/d-z17-b19894-10896.jpg",
+      "tier": "detail",
+      "bytes": 250966,
+      "sha256": "d88d05fa4060de94b74cb77fa22622d8bcabe917497b52ef812856c19c56f40d",
+      "bounds": {
+        "minLon": 38.56201171875,
+        "minLat": 51.501904107618124,
+        "maxLon": 38.572998046875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
       "id": "d-z17-b19895-10896",
       "file": "blocks/d-z17-b19895-10896.jpg",
       "tier": "detail",
@@ -1910,6 +5784,19 @@
         "minLon": 38.594970703125,
         "minLat": 51.501904107618124,
         "maxLon": 38.60595703125,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "d-z17-b19929-10896",
+      "file": "blocks/d-z17-b19929-10896.jpg",
+      "tier": "detail",
+      "bytes": 304169,
+      "sha256": "2388b39bb756447cb65bebb30bffb22b054e5ffbf879b26c39f356b4b5c981b5",
+      "bounds": {
+        "minLon": 38.946533203125,
+        "minLat": 51.501904107618124,
+        "maxLon": 38.95751953125,
         "maxLat": 51.50874245880333
       }
     },
@@ -1962,6 +5849,19 @@
         "minLon": 38.990478515625,
         "minLat": 51.501904107618124,
         "maxLon": 39.00146484375,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "d-z17-b19934-10896",
+      "file": "blocks/d-z17-b19934-10896.jpg",
+      "tier": "detail",
+      "bytes": 244473,
+      "sha256": "6d0e90a4d8b0e97916ce9dbd4dda61c739eddf41eeeee90bd5ae362ca5488469",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.501904107618124,
+        "maxLon": 39.012451171875,
         "maxLat": 51.50874245880333
       }
     },
@@ -2028,6 +5928,123 @@
         "minLat": 51.501904107618124,
         "maxLon": 39.0673828125,
         "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "d-z17-b19940-10896",
+      "file": "blocks/d-z17-b19940-10896.jpg",
+      "tier": "detail",
+      "bytes": 283317,
+      "sha256": "24314479160163492ead550c4763db5b49620adaaebc8a53447279ecf885bff1",
+      "bounds": {
+        "minLon": 39.0673828125,
+        "minLat": 51.501904107618124,
+        "maxLon": 39.078369140625,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "d-z17-b19941-10896",
+      "file": "blocks/d-z17-b19941-10896.jpg",
+      "tier": "detail",
+      "bytes": 272350,
+      "sha256": "f0343946166bacff6f8b2dc9b81c2d3fe54d99da3d47bf86363ac87a95a48060",
+      "bounds": {
+        "minLon": 39.078369140625,
+        "minLat": 51.501904107618124,
+        "maxLon": 39.08935546875,
+        "maxLat": 51.50874245880333
+      }
+    },
+    {
+      "id": "d-z17-b19895-10897",
+      "file": "blocks/d-z17-b19895-10897.jpg",
+      "tier": "detail",
+      "bytes": 218144,
+      "sha256": "78d1acb19bf817a634b601da4cf20b887c41d2a9ea87a929d840205b3e0387a2",
+      "bounds": {
+        "minLon": 38.572998046875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.583984375,
+        "maxLat": 51.501904107618124
+      }
+    },
+    {
+      "id": "d-z17-b19896-10897",
+      "file": "blocks/d-z17-b19896-10897.jpg",
+      "tier": "detail",
+      "bytes": 222763,
+      "sha256": "e58e7ed7e55f88550239a31dd9639539c745505b0834a0c335f339ed9e55ab50",
+      "bounds": {
+        "minLon": 38.583984375,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.594970703125,
+        "maxLat": 51.501904107618124
+      }
+    },
+    {
+      "id": "d-z17-b19897-10897",
+      "file": "blocks/d-z17-b19897-10897.jpg",
+      "tier": "detail",
+      "bytes": 172375,
+      "sha256": "ab18909883f305624d85be419acef99d31cd97176a95f9a0437dbdc634fb72c1",
+      "bounds": {
+        "minLon": 38.594970703125,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.60595703125,
+        "maxLat": 51.501904107618124
+      }
+    },
+    {
+      "id": "d-z17-b19926-10897",
+      "file": "blocks/d-z17-b19926-10897.jpg",
+      "tier": "detail",
+      "bytes": 213605,
+      "sha256": "01d7e8643bce9151e76c124cf4d58064910ac491bbc66bc067b9fcc153bd001b",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.924560546875,
+        "maxLat": 51.501904107618124
+      }
+    },
+    {
+      "id": "d-z17-b19927-10897",
+      "file": "blocks/d-z17-b19927-10897.jpg",
+      "tier": "detail",
+      "bytes": 256118,
+      "sha256": "124e2e2abb47fe652b6b742b5871abac1cd3d1ef7f32bafbecf0a4c84d0d4f1e",
+      "bounds": {
+        "minLon": 38.924560546875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.935546875,
+        "maxLat": 51.501904107618124
+      }
+    },
+    {
+      "id": "d-z17-b19928-10897",
+      "file": "blocks/d-z17-b19928-10897.jpg",
+      "tier": "detail",
+      "bytes": 249590,
+      "sha256": "f110c375300854bb239608ea2a86534b96d38e717c41eecf54754bb168b9175b",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.946533203125,
+        "maxLat": 51.501904107618124
+      }
+    },
+    {
+      "id": "d-z17-b19929-10897",
+      "file": "blocks/d-z17-b19929-10897.jpg",
+      "tier": "detail",
+      "bytes": 265005,
+      "sha256": "a183f0790757c87a2c3e20bbaec07997429fed521aac57c67e0561f82dd4f7d4",
+      "bounds": {
+        "minLon": 38.946533203125,
+        "minLat": 51.495064730143696,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.501904107618124
       }
     },
     {
@@ -2148,6 +6165,32 @@
       }
     },
     {
+      "id": "d-z17-b19939-10897",
+      "file": "blocks/d-z17-b19939-10897.jpg",
+      "tier": "detail",
+      "bytes": 315170,
+      "sha256": "11706dc3698ec6ae613a96a7b5cea72d9f465fe7cd2d636adbd51450a025b57d",
+      "bounds": {
+        "minLon": 39.056396484375,
+        "minLat": 51.495064730143696,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.501904107618124
+      }
+    },
+    {
+      "id": "d-z17-b19926-10898",
+      "file": "blocks/d-z17-b19926-10898.jpg",
+      "tier": "detail",
+      "bytes": 187361,
+      "sha256": "28b70e8b787e81db4a6215a38c52c562f830fd320adaece2d6f5cf47affe0f4a",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.488224326323476,
+        "maxLon": 38.924560546875,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
       "id": "d-z17-b19927-10898",
       "file": "blocks/d-z17-b19927-10898.jpg",
       "tier": "detail",
@@ -2170,6 +6213,19 @@
         "minLon": 38.935546875,
         "minLat": 51.488224326323476,
         "maxLon": 38.946533203125,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "d-z17-b19929-10898",
+      "file": "blocks/d-z17-b19929-10898.jpg",
+      "tier": "detail",
+      "bytes": 215375,
+      "sha256": "9e0143c0b450d6dcad2a805e8cdc6257240f9665df69da8d4de62fcbd4499aef",
+      "bounds": {
+        "minLon": 38.946533203125,
+        "minLat": 51.488224326323476,
+        "maxLon": 38.95751953125,
         "maxLat": 51.495064730143696
       }
     },
@@ -2239,6 +6295,19 @@
       }
     },
     {
+      "id": "d-z17-b19935-10898",
+      "file": "blocks/d-z17-b19935-10898.jpg",
+      "tier": "detail",
+      "bytes": 302609,
+      "sha256": "953895c02b9b8cb5f51b4a3df708336e5fc529f80d14260e0d32e1345ba3a4c0",
+      "bounds": {
+        "minLon": 39.012451171875,
+        "minLat": 51.488224326323476,
+        "maxLon": 39.0234375,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
       "id": "d-z17-b19936-10898",
       "file": "blocks/d-z17-b19936-10898.jpg",
       "tier": "detail",
@@ -2275,6 +6344,32 @@
         "minLat": 51.488224326323476,
         "maxLon": 39.056396484375,
         "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "d-z17-b19939-10898",
+      "file": "blocks/d-z17-b19939-10898.jpg",
+      "tier": "detail",
+      "bytes": 235050,
+      "sha256": "3a88d66989ed743d924141611f8978e7c125b8c791ae71c95ae7b802e6b27579",
+      "bounds": {
+        "minLon": 39.056396484375,
+        "minLat": 51.488224326323476,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.495064730143696
+      }
+    },
+    {
+      "id": "d-z17-b19925-10899",
+      "file": "blocks/d-z17-b19925-10899.jpg",
+      "tier": "detail",
+      "bytes": 227256,
+      "sha256": "93cf6e3e695e036d801295f422591e8cf37d0c5c2916efcc55d43c6354d7da9a",
+      "bounds": {
+        "minLon": 38.902587890625,
+        "minLat": 51.481382896100975,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.488224326323476
       }
     },
     {
@@ -2382,6 +6477,32 @@
       }
     },
     {
+      "id": "d-z17-b19934-10899",
+      "file": "blocks/d-z17-b19934-10899.jpg",
+      "tier": "detail",
+      "bytes": 228019,
+      "sha256": "0ac9a80d3e44af25e17a8bb434071217298cd6f7f7c72bbc9389863ab384d7df",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.481382896100975,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.488224326323476
+      }
+    },
+    {
+      "id": "d-z17-b19935-10899",
+      "file": "blocks/d-z17-b19935-10899.jpg",
+      "tier": "detail",
+      "bytes": 301882,
+      "sha256": "e2443a5878c183a136530a4bc3df36b6875efd2aec1c15b7eb9c91ace8e146ae",
+      "bounds": {
+        "minLon": 39.012451171875,
+        "minLat": 51.481382896100975,
+        "maxLon": 39.0234375,
+        "maxLat": 51.488224326323476
+      }
+    },
+    {
       "id": "d-z17-b19936-10899",
       "file": "blocks/d-z17-b19936-10899.jpg",
       "tier": "detail",
@@ -2418,6 +6539,32 @@
         "minLat": 51.481382896100975,
         "maxLon": 39.056396484375,
         "maxLat": 51.488224326323476
+      }
+    },
+    {
+      "id": "d-z17-b19939-10899",
+      "file": "blocks/d-z17-b19939-10899.jpg",
+      "tier": "detail",
+      "bytes": 228686,
+      "sha256": "5377d39fc526f1bb309f599595270adeda9a1b55bceaa19bf9843e2a82a9273f",
+      "bounds": {
+        "minLon": 39.056396484375,
+        "minLat": 51.481382896100975,
+        "maxLon": 39.0673828125,
+        "maxLat": 51.488224326323476
+      }
+    },
+    {
+      "id": "d-z17-b19925-10900",
+      "file": "blocks/d-z17-b19925-10900.jpg",
+      "tier": "detail",
+      "bytes": 211110,
+      "sha256": "0a7f3f222c132ef76434f03eaa5960154cf1e329d3911291d2e27a6e31487066",
+      "bounds": {
+        "minLon": 38.902587890625,
+        "minLat": 51.47454043941975,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.481382896100975
       }
     },
     {
@@ -2512,6 +6659,45 @@
       }
     },
     {
+      "id": "d-z17-b19933-10900",
+      "file": "blocks/d-z17-b19933-10900.jpg",
+      "tier": "detail",
+      "bytes": 269214,
+      "sha256": "914739833dee121ac80465d55797c2b8f87bfd03aa873551b941883cb4383774",
+      "bounds": {
+        "minLon": 38.990478515625,
+        "minLat": 51.47454043941975,
+        "maxLon": 39.00146484375,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "d-z17-b19934-10900",
+      "file": "blocks/d-z17-b19934-10900.jpg",
+      "tier": "detail",
+      "bytes": 239135,
+      "sha256": "e10bf2fa557616916cdd55d8ab2910f80cba7777ecfd1746985655fe491a40d9",
+      "bounds": {
+        "minLon": 39.00146484375,
+        "minLat": 51.47454043941975,
+        "maxLon": 39.012451171875,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "d-z17-b19935-10900",
+      "file": "blocks/d-z17-b19935-10900.jpg",
+      "tier": "detail",
+      "bytes": 310784,
+      "sha256": "f4d9f733bca7f72c259b88bd9111631f36165befa88f8b7e187aae69f39826df",
+      "bounds": {
+        "minLon": 39.012451171875,
+        "minLat": 51.47454043941975,
+        "maxLon": 39.0234375,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
       "id": "d-z17-b19936-10900",
       "file": "blocks/d-z17-b19936-10900.jpg",
       "tier": "detail",
@@ -2535,6 +6721,32 @@
         "minLat": 51.47454043941975,
         "maxLon": 39.04541015625,
         "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "d-z17-b19938-10900",
+      "file": "blocks/d-z17-b19938-10900.jpg",
+      "tier": "detail",
+      "bytes": 224756,
+      "sha256": "6445fb2968cd04f87a6952af5f30bc1d6948be3db3d5b4ff82d04077ca83e076",
+      "bounds": {
+        "minLon": 39.04541015625,
+        "minLat": 51.47454043941975,
+        "maxLon": 39.056396484375,
+        "maxLat": 51.481382896100975
+      }
+    },
+    {
+      "id": "d-z17-b19925-10901",
+      "file": "blocks/d-z17-b19925-10901.jpg",
+      "tier": "detail",
+      "bytes": 198492,
+      "sha256": "51c6b56861bf02d6bd7f9b4e0a293d4b2a2628731f2c41fd9275ade17293e8a4",
+      "bounds": {
+        "minLon": 38.902587890625,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.47454043941975
       }
     },
     {
@@ -2603,6 +6815,71 @@
       }
     },
     {
+      "id": "d-z17-b19931-10901",
+      "file": "blocks/d-z17-b19931-10901.jpg",
+      "tier": "detail",
+      "bytes": 196853,
+      "sha256": "dbced1faebe1a481f0ab603efebcd921979ffa36bc63ef8d7b631fee73d6c099",
+      "bounds": {
+        "minLon": 38.968505859375,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.9794921875,
+        "maxLat": 51.47454043941975
+      }
+    },
+    {
+      "id": "d-z17-b19932-10901",
+      "file": "blocks/d-z17-b19932-10901.jpg",
+      "tier": "detail",
+      "bytes": 259511,
+      "sha256": "7ed0e63b4c2f2d764fa83e904e599abc0a20f98438118bcaddd609c8095183c0",
+      "bounds": {
+        "minLon": 38.9794921875,
+        "minLat": 51.467696956223364,
+        "maxLon": 38.990478515625,
+        "maxLat": 51.47454043941975
+      }
+    },
+    {
+      "id": "d-z17-b19936-10901",
+      "file": "blocks/d-z17-b19936-10901.jpg",
+      "tier": "detail",
+      "bytes": 190131,
+      "sha256": "8fbc6c8a3798d20ed9ed27d13599faf3c2a4cc3b80814a055709f26a0ede768c",
+      "bounds": {
+        "minLon": 39.0234375,
+        "minLat": 51.467696956223364,
+        "maxLon": 39.034423828125,
+        "maxLat": 51.47454043941975
+      }
+    },
+    {
+      "id": "d-z17-b19937-10901",
+      "file": "blocks/d-z17-b19937-10901.jpg",
+      "tier": "detail",
+      "bytes": 185594,
+      "sha256": "ba5bea34fd58b694d0cc75fbf779809353b2c5442e1ce917d3a21bb55b47214b",
+      "bounds": {
+        "minLon": 39.034423828125,
+        "minLat": 51.467696956223364,
+        "maxLon": 39.04541015625,
+        "maxLat": 51.47454043941975
+      }
+    },
+    {
+      "id": "d-z17-b19925-10902",
+      "file": "blocks/d-z17-b19925-10902.jpg",
+      "tier": "detail",
+      "bytes": 196795,
+      "sha256": "b55fc0cff97b7d62560cf625eeee7273d81c2c1c0c3abdcdee2b1114186bba70",
+      "bounds": {
+        "minLon": 38.902587890625,
+        "minLat": 51.4608524464555,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
       "id": "d-z17-b19926-10902",
       "file": "blocks/d-z17-b19926-10902.jpg",
       "tier": "detail",
@@ -2642,6 +6919,71 @@
       }
     },
     {
+      "id": "d-z17-b19929-10902",
+      "file": "blocks/d-z17-b19929-10902.jpg",
+      "tier": "detail",
+      "bytes": 160335,
+      "sha256": "8994acdf38143ae4bdde6a096911590da82b7ff16b2206fc3247085f5b02ecfd",
+      "bounds": {
+        "minLon": 38.946533203125,
+        "minLat": 51.4608524464555,
+        "maxLon": 38.95751953125,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "d-z17-b19930-10902",
+      "file": "blocks/d-z17-b19930-10902.jpg",
+      "tier": "detail",
+      "bytes": 182875,
+      "sha256": "5ed047495d550c960440e9fa59ca278f87ada726bb7d9532f42517a1322064eb",
+      "bounds": {
+        "minLon": 38.95751953125,
+        "minLat": 51.4608524464555,
+        "maxLon": 38.968505859375,
+        "maxLat": 51.467696956223364
+      }
+    },
+    {
+      "id": "d-z17-b19923-10903",
+      "file": "blocks/d-z17-b19923-10903.jpg",
+      "tier": "detail",
+      "bytes": 222869,
+      "sha256": "11bd39c125af2bd3d0b8b2df12eb718b7828cda56be2aa1696b2ef3d856a59e2",
+      "bounds": {
+        "minLon": 38.880615234375,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.8916015625,
+        "maxLat": 51.4608524464555
+      }
+    },
+    {
+      "id": "d-z17-b19924-10903",
+      "file": "blocks/d-z17-b19924-10903.jpg",
+      "tier": "detail",
+      "bytes": 288529,
+      "sha256": "9ef3ca58fdb2e619891d6fc257784d444625b19289f65f4f6820f5ff606122c7",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.902587890625,
+        "maxLat": 51.4608524464555
+      }
+    },
+    {
+      "id": "d-z17-b19925-10903",
+      "file": "blocks/d-z17-b19925-10903.jpg",
+      "tier": "detail",
+      "bytes": 232650,
+      "sha256": "2f5a85f8bd4d2562d9acdc9dfd09eab8ae6bc92f186e08c679a5481398a1b05e",
+      "bounds": {
+        "minLon": 38.902587890625,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.4608524464555
+      }
+    },
+    {
       "id": "d-z17-b19926-10903",
       "file": "blocks/d-z17-b19926-10903.jpg",
       "tier": "detail",
@@ -2665,6 +7007,32 @@
         "minLat": 51.45400691005982,
         "maxLon": 38.935546875,
         "maxLat": 51.4608524464555
+      }
+    },
+    {
+      "id": "d-z17-b19928-10903",
+      "file": "blocks/d-z17-b19928-10903.jpg",
+      "tier": "detail",
+      "bytes": 174705,
+      "sha256": "5a3612fcff474621ffd3ca6cb0f00324025b4f9f5aae79d811c281d9a66c888f",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.45400691005982,
+        "maxLon": 38.946533203125,
+        "maxLat": 51.4608524464555
+      }
+    },
+    {
+      "id": "d-z17-b19922-10904",
+      "file": "blocks/d-z17-b19922-10904.jpg",
+      "tier": "detail",
+      "bytes": 183018,
+      "sha256": "cc74162876d107cc5b10110eca0b6bcf7d3b114a88301c1383e85bbac313827d",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.4471603469801,
+        "maxLon": 38.880615234375,
+        "maxLat": 51.45400691005982
       }
     },
     {
@@ -2733,6 +7101,32 @@
       }
     },
     {
+      "id": "d-z17-b19928-10904",
+      "file": "blocks/d-z17-b19928-10904.jpg",
+      "tier": "detail",
+      "bytes": 185842,
+      "sha256": "95e53b5154df1ffbcd239843bcc1e02ec4fc76f8fd4324174d2f45866eecad0c",
+      "bounds": {
+        "minLon": 38.935546875,
+        "minLat": 51.4471603469801,
+        "maxLon": 38.946533203125,
+        "maxLat": 51.45400691005982
+      }
+    },
+    {
+      "id": "d-z17-b19922-10905",
+      "file": "blocks/d-z17-b19922-10905.jpg",
+      "tier": "detail",
+      "bytes": 249923,
+      "sha256": "0ad7eb50bebd98f0e6bf96bab83e02ba78b77c622db662760104ba841fc1882a",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.880615234375,
+        "maxLat": 51.4471603469801
+      }
+    },
+    {
       "id": "d-z17-b19923-10905",
       "file": "blocks/d-z17-b19923-10905.jpg",
       "tier": "detail",
@@ -2785,6 +7179,32 @@
       }
     },
     {
+      "id": "d-z17-b19927-10905",
+      "file": "blocks/d-z17-b19927-10905.jpg",
+      "tier": "detail",
+      "bytes": 191072,
+      "sha256": "61851bb0762609e36491df1ee10fba691554490dc203ffef5e5c7420c3c1ac71",
+      "bounds": {
+        "minLon": 38.924560546875,
+        "minLat": 51.44031275716011,
+        "maxLon": 38.935546875,
+        "maxLat": 51.4471603469801
+      }
+    },
+    {
+      "id": "d-z17-b19922-10906",
+      "file": "blocks/d-z17-b19922-10906.jpg",
+      "tier": "detail",
+      "bytes": 208901,
+      "sha256": "daaafa9da49e134cd2399f13235e7cf3b573102716696fee24c7e21392814da2",
+      "bounds": {
+        "minLon": 38.86962890625,
+        "minLat": 51.43346414054372,
+        "maxLon": 38.880615234375,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
       "id": "d-z17-b19923-10906",
       "file": "blocks/d-z17-b19923-10906.jpg",
       "tier": "detail",
@@ -2808,6 +7228,45 @@
         "minLat": 51.43346414054372,
         "maxLon": 38.902587890625,
         "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "d-z17-b19925-10906",
+      "file": "blocks/d-z17-b19925-10906.jpg",
+      "tier": "detail",
+      "bytes": 194230,
+      "sha256": "1dacdf0ab6f605b9b620780da2d0b1e8cc1ab5fcc2d63ccb7c01ebcbfea75f2b",
+      "bounds": {
+        "minLon": 38.902587890625,
+        "minLat": 51.43346414054372,
+        "maxLon": 38.91357421875,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "d-z17-b19926-10906",
+      "file": "blocks/d-z17-b19926-10906.jpg",
+      "tier": "detail",
+      "bytes": 220142,
+      "sha256": "23193269f9603faa4cc4ecefc69d64521d3090974a9db8988d92a97eccd44404",
+      "bounds": {
+        "minLon": 38.91357421875,
+        "minLat": 51.43346414054372,
+        "maxLon": 38.924560546875,
+        "maxLat": 51.44031275716011
+      }
+    },
+    {
+      "id": "d-z17-b19924-10907",
+      "file": "blocks/d-z17-b19924-10907.jpg",
+      "tier": "detail",
+      "bytes": 218415,
+      "sha256": "6dc0130d4e3755c15ae99c473e19dfbfb04ba3251ca244770fc047439709e289",
+      "bounds": {
+        "minLon": 38.8916015625,
+        "minLat": 51.42661449707482,
+        "maxLon": 38.902587890625,
+        "maxLat": 51.43346414054372
       }
     }
   ]
