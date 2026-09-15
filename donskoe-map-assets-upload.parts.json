@@ -1,0 +1,44 @@
+﻿{
+    "schema":  1,
+    "original":  "donskoe-map-assets-upload.zip",
+    "originalBytes":  131982842,
+    "originalSha256":  "0ce3b511ea913e0af305de31736aaf9c0060d48420569a7a5adfc2f240fdccd9",
+    "chunkBytes":  20971520,
+    "parts":  [
+                  {
+                      "name":  "donskoe-map-assets-upload.part001",
+                      "bytes":  20971520,
+                      "sha256":  "b9c34f76cf66db73d7ee139777788e1112473b29d32ba2e120b1a30e31cc2273"
+                  },
+                  {
+                      "name":  "donskoe-map-assets-upload.part002",
+                      "bytes":  20971520,
+                      "sha256":  "f1a154ecef624cf1dc27bcd9ef96858827e7db57834b716080ab597335464b77"
+                  },
+                  {
+                      "name":  "donskoe-map-assets-upload.part003",
+                      "bytes":  20971520,
+                      "sha256":  "f03183a6eb0c7553aad7b5e0b0b503578a0683f9b07c151e7c958c79019c25eb"
+                  },
+                  {
+                      "name":  "donskoe-map-assets-upload.part004",
+                      "bytes":  20971520,
+                      "sha256":  "f0541ecdd2b20ca62973191e182ec6e3368021e32f7e8355cfaeac500cff130d"
+                  },
+                  {
+                      "name":  "donskoe-map-assets-upload.part005",
+                      "bytes":  20971520,
+                      "sha256":  "e8826bd0b2579e6e0f1ea0d95960c87799cf1d2f09ac1183df8c5ef9fc5b63e2"
+                  },
+                  {
+                      "name":  "donskoe-map-assets-upload.part006",
+                      "bytes":  20971520,
+                      "sha256":  "0503f0f79a376a8706e44417125498ed64e79b6c517a835e281a2cbac3d11101"
+                  },
+                  {
+                      "name":  "donskoe-map-assets-upload.part007",
+                      "bytes":  6153722,
+                      "sha256":  "fcedc18e3651d86e3778f21e34d27bc95abe7e0b6d239e2deb5dda75aef03e25"
+                  }
+              ]
+}
